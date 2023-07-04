@@ -1,0 +1,268 @@
+:root {
+    --ff-para: 'Noto Sans', sans-serif;
+    --ff-display-tom: 'Noto Sans Display', sans-serif;
+    --ff-headings: 'Noto Serif', serif;
+    --ff-display-tats: 'Noto Serif Display', serif;
+
+    --fs-xxx-lge: 3rem;
+    --fs-xx-lge: 2.75rem;
+    --fs-x-lge: 2.5rem;
+    --fs-lge: 2.25rem;
+    --fs-l-med: 2rem;
+    --fs-med: 1.75rem;
+    --fs-s-med: 1.5rem;
+    --fs-small: 1.25rem;
+    --fs-x-small: 1rem;
+    --fs-xx-small: 0.75rem;
+
+    --fw-bold: 700;
+    --fw-semi-bold: 500;
+    --fw-regular: 400;
+
+    --clr-bg: hsl(29, 100%, 95%);
+    --clr-head: hsl(29, 100%, 80%);
+    --clr-smoke-shadow: hsl(29, 100%, 10%);
+    --clr-invisible-text: hsl(29, 100%, 80%);
+    --clr-visible-text: hsl(29, 100%, 20%);
+}
+
+
+/*
+Josh's Custom CSS Reset
+https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+/*
+ end of Josh's Custom CSS Reset
+ */
+
+ body {
+    background-color: var(--clr-bg);
+ }
+
+ /*setup for the header*/
+
+ .display {
+    position: relative;
+    width: 100%;
+    height: 12vw;
+    background-color: var(--clr-head);
+    border: .2vw solid var(--clr-visible-text);
+    border-radius: 1vw 1vw 50% 50%;
+ }
+ .display h2 {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    color: var(--clr-visible-text);
+    font-family: var(--ff-display-tom);
+    font-size: var(--fs-xx-small);
+    font-weight: var(--fw-semi-bold);
+ }
+ .display h1 {
+    color: var(--clr-invisible-text);
+    text-shadow: 0 0 .5vw var(--clr-smoke-shadow), 0 0 1vw var(--clr-smoke-shadow), 0 0 1.5vw var(--clr-smoke-shadow), 0 0 2vw var(--clr-smoke-shadow), 0 0 2.5vw var(--clr-smoke-shadow), 0 0 3vw var(--clr-smoke-shadow);
+    letter-spacing: 1vw;
+    position: absolute;
+    top: 4vw;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--ff-display-tats);
+    font-size: var(--fs-xx-small);
+    font-weight: var(--fw-bold);
+ }
+ .display #hamburger {
+    position: absolute;
+    top: -1rem;
+    right: 1%;
+    color: var(--clr-visible-text);
+    z-index: 1;
+    font-size: var(--fs-med);
+    cursor: pointer;
+    transition: margin-left .5s;
+    padding: 16px;
+ }
+ 
+ /*set up for the navbar*/
+
+ .navbar {
+    transition: background-color 0.5s;
+ }
+ .navbar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: var(--clr-visible-text);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+ }
+ .navbar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: var(--fs-x-small);
+    color: var(--clr-invisible-text);
+    display: block;
+    transition: 0.3s;
+ }
+ .navbar a:hover {
+    color: var(--clr-bg);
+ 
+ }
+ .navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: var(--fs-med);
+    margin-left: 50px;
+ }
+/*set up for the lead photo*/
+
+ .leadphoto {
+    width:40%;
+    height:auto;
+    margin: auto;
+    box-shadow: 1em 1em 2em var(--clr-smoke-shadow);
+    margin-top: 1em;
+    margin-bottom: 3em;
+   
+ }
+
+ /* set up for the subdisplays */
+ 
+ .subdisplay {
+   position: relative;
+   width: 100%;
+   height: 12vw;
+   background-color: var(--clr-head);
+   border: .2vw solid var(--clr-visible-text);
+   border-radius: 1vw 1vw 50% 50%;
+}
+.subdisplay h3 {
+   color: var(--clr-visible-text);
+   text-align: center;
+   font-family: var(--ff-headings);
+   font-size: var(--fs-xx-small);
+   font-weight: var(--fw-semi-bold);
+   padding: 0.75em;
+ }
+ /* @media queries*/
+
+ @media (min-width: 320px) {
+    .display  h2 {
+        left: 11%;
+        font-size: var(--fs-x-small);  
+    }
+    .display h1 {
+        font-size: var(--fs-x-small);
+    }
+  /* .subdisplay h3 {
+      font-size: var(--fs-x-small);
+      padding: 0.25em;
+    }*/
+ }
+ @media (min-width: 375px) {
+    .display h2 {
+        left: 12%;
+        font-size: var(--fs-small);
+    }
+    .display h1 {
+        font-size: var(--fs-small);
+    } 
+   .subdisplay h3 {
+      font-size: var(--fs-small);
+      padding: 0.3em;
+    }
+ }
+ @media (min-width: 425px) {
+    .display h2 {
+        left: 15%;
+        font-size: var(--fs-s-med);
+    }
+    .display h1 {
+        font-size: var(--fs-s-med);
+    } 
+    .subdisplay h3 {
+      font-size: var(--fs-s-med);
+    }
+ }
+ 
+ @media (min-width: 640px) {
+    .display h2 {
+        left: 18%;
+        font-size: var(--fs-med);
+    }
+    .display h1 {
+        font-size: var(--fs-med);
+    } 
+    .subdisplay h3 {
+      font-size: var(--fs-med);
+      padding: 0.4em;
+    }
+ }
+
+ @media (min-width: 1024px) {
+    .display h2 {
+        font-size: var(--fs-x-lge);
+    }
+    .display h1 {
+        font-size: var(--fs-x-lge);
+    } 
+    .subdisplay h3 {
+      font-size: var(--fs-lge);
+    }
+ }
+ @media (min-width: 1280px) {
+    .display h2 {
+        font-size: var(--fs-xx-lge);
+    }
+    .display h1 {
+        font-size: var(--fs-xx-lge);
+    } 
+    .subdisplay h3 {
+      font-size: var(--fs-x-lge);
+    }
+ }
+ @media (min-width: 1400px) {
+    .display h2 {
+        font-size: var(--fs-xxx-lge);
+    }
+    .display h1 {
+        font-size: var(--fs-xxx-lge);
+    } 
+    .subdisplay h3 {
+      font-size: var(--fs-xx-lge);
+    }
+ }
+ 
