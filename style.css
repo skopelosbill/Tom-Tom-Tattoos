@@ -194,7 +194,6 @@ p, h1, h2, h3, h4, h5, h6 {
    font-family: var(--ff-para);
    font-size: var(--fs-xx-small);
    color: var(--clr-visible-text);
-   border: solid 0.2em var(--clr-visible-text);
    margin-bottom: 2rem;
 }
 
