@@ -200,23 +200,12 @@ p, h1, h2, h3, h4, h5, h6 {
  /* @media queries*/
 
  @media (min-width: 320px) {
-  /*  .display  h2 {
-        left: 11%;
-        font-size: var(--fs-x-small);  
-    }*/
     .display h1 {
         font-size: var(--fs-x-small);
     }
-  /* .subdisplay h3 {
-      font-size: var(--fs-x-small);
-      padding: 0.25em;
-    }*/
+  
  }
- @media (min-width: 375px) {
-    /*.display h2 {
-        left: 12%;
-        font-size: var(--fs-small);
-    }*/
+ @media (min-width: 375px) { 
     .display h1 {
         font-size: var(--fs-small);
     } 
@@ -226,10 +215,6 @@ p, h1, h2, h3, h4, h5, h6 {
     }
  }
  @media (min-width: 425px) {
-   /* .display h2 {
-        left: 15%;
-        font-size: var(--fs-s-med);
-    }*/
     .display h1 {
         font-size: var(--fs-s-med);
     } 
@@ -242,10 +227,6 @@ p, h1, h2, h3, h4, h5, h6 {
  }
  
  @media (min-width: 640px) {
-   /* .display h2 {
-        left: 18%;
-        font-size: var(--fs-med);
-    }*/
     .display h1 {
         font-size: var(--fs-med);
     } 
@@ -255,16 +236,13 @@ p, h1, h2, h3, h4, h5, h6 {
     }
    
  }
- @media(min-width: 720px) {
+ @media(min-width: 780px) {
    .flex-container {
       flex-direction: row;
     }
  }
 
  @media (min-width: 1024px) {
-    /*.display h2 {
-        font-size: var(--fs-x-lge);
-    }*/
     .display h1 {
         font-size: var(--fs-x-lge);
     } 
@@ -274,9 +252,6 @@ p, h1, h2, h3, h4, h5, h6 {
     
  }
  @media (min-width: 1280px) {
-    /*.display h2 {
-        font-size: var(--fs-xx-lge);
-    }*/
     .display h1 {
         font-size: var(--fs-xx-lge);
     } 
@@ -285,9 +260,6 @@ p, h1, h2, h3, h4, h5, h6 {
     }
  }
  @media (min-width: 1400px) {
-    /*.display h2 {
-        font-size: var(--fs-xxx-lge);
-    }*/
     .display h1 {
         font-size: var(--fs-xxx-lge);
     } 
