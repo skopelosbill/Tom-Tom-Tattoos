@@ -222,7 +222,7 @@ p, h1, h2, h3, h4, h5, h6 {
       font-size: var(--fs-s-med);
     }
     .flex-container > div {
-      font-size: var(--fs-s-med)
+      font-size: var(--fs-small)
     }
  }
  
@@ -234,7 +234,9 @@ p, h1, h2, h3, h4, h5, h6 {
       font-size: var(--fs-med);
       padding: 0.4em;
     }
-   
+    .flex-container > div {
+      font-size: var(--fs-s-med)
+    }
  }
  @media(min-width: 780px) {
    .flex-container {
