@@ -197,6 +197,37 @@ p, h1, h2, h3, h4, h5, h6 {
    margin-bottom: 2rem;
 }
 
+.grid-container {
+   display: grid;
+   gap: 1rem;
+   grid-template-columns: 1fr;
+   margin: 0 1rem 1rem 1rem;
+}
+.photo {
+   width: 90vw;
+   height: calc(90vw * 3 / 4);
+   margin: 0 auto;
+ 
+}
+#photo1 {
+   background-color: red;
+}
+#photo2 {
+   background-color: orange;
+}
+#photo3 {
+   background-color: yellow;
+}
+#photo4 {
+   background-color: green;
+}
+#photo5 {
+   background-color: blue;
+}
+#photo6 {
+   background-color: purple;
+}
+
  /* @media queries*/
 
  @media (min-width: 320px) {
@@ -224,6 +255,14 @@ p, h1, h2, h3, h4, h5, h6 {
     .flex-container > div {
       font-size: var(--fs-small)
     }
+    .grid-container{
+      grid-template-columns: 1fr 1fr;
+      column-gap: 1rem;
+    }
+    .photo {
+      width: 45vw;
+      height: calc(45vw * 3 / 4);
+    }
  }
  
  @media (min-width: 640px) {
@@ -241,6 +280,14 @@ p, h1, h2, h3, h4, h5, h6 {
  @media(min-width: 780px) {
    .flex-container {
       flex-direction: row;
+    }
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 1rem;
+    }
+    .photo {
+      width: 30vw;
+      height: calc(30vw * 3 / 4)
     }
  }
 
@@ -260,13 +307,22 @@ p, h1, h2, h3, h4, h5, h6 {
     .subdisplay h3 {
       font-size: var(--fs-x-lge);
     }
+   
  }
- @media (min-width: 1400px) {
+ @media (min-width: 1500px) {
     .display h1 {
         font-size: var(--fs-xxx-lge);
     } 
     .subdisplay h3 {
       font-size: var(--fs-xx-lge);
+    }
+    .grid-container {
+      grid-template-columns: repeat(6, 1fr);
+      column-gap: 1rem;
+    }
+    .photo {
+      width: 15vw;
+      height: calc(15vw * 3 / 4)
     }
  }
  
