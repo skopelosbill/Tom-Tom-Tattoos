@@ -197,6 +197,8 @@ p, h1, h2, h3, h4, h5, h6 {
    margin-bottom: 2rem;
 }
 
+/*Photo Gallery*/
+
 .grid-container {
    display: grid;
    gap: 1rem;
@@ -226,6 +228,30 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 #photo6 {
    background-color: purple;
+}
+
+/*Testimonials*/
+
+.testimonials {
+   width: 66.7%;
+   height: auto;
+   margin: 0 auto;
+   font-family: var(--ff-para);
+   font-weight: var(--fw-regular);
+   color:var(--clr-visible-text);
+   margin-bottom: 1rem;
+}
+.testimonials > .name {
+   text-align: left;
+   font-size: var(--fs-small); 
+   padding-top: 1em;
+   padding-bottom: 0.5 em;
+}
+.testimonials > .comment {
+   text-align: center;
+   font-size: var(--fs-x-small);
+   padding-bottom: 1em;
+   border-bottom: 0.1em solid var(--clr-visible-text)
 }
 
  /* @media queries*/
