@@ -213,31 +213,6 @@ p, h1, h2, h3, h4, h5, h6 {
    background-color: purple;
 }
 
-/*Recent Work*/
-
-.recentwork {
-   width: 66.7%;
-   height: auto;
-   margin: 0 auto;
-   font-family: var(--ff-para);
-   font-weight: var(--fw-regular);
-   color:var(--clr-visible-text);
-   margin-bottom: 1rem;
-}
-.work > p {
-   text-align: left;
-}
-.work > .text {
-   text-align: center;
-}
-.workpic {
-   width: 9vw;
-   height: 12vw;
-   background-color: pink;
-   margin: 0 auto;
-}
-
-
 /*Testimonials*/
 
 .testimonials {
