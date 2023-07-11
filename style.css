@@ -77,15 +77,6 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: var(--clr-bg);
     border-bottom: 1vw solid var(--clr-visible-text);
  }
- /*.display h2 {
-    position: absolute;
-    top: 0;
-    left: 20%;
-    color: var(--clr-visible-text);
-    font-family: var(--ff-display-tom);
-    font-size: var(--fs-xx-small);
-    font-weight: var(--fw-semi-bold);
- }*/
  .display h1 {
     color: var(--clr-invisible-text);
     text-shadow: 0 0 .5vw var(--clr-smoke-shadow), 0 0 1vw var(--clr-smoke-shadow), 0 0 1.5vw var(--clr-smoke-shadow), 0 0 2vw var(--clr-smoke-shadow), 0 0 2.5vw var(--clr-smoke-shadow), 0 0 3vw var(--clr-smoke-shadow);
@@ -99,9 +90,9 @@ p, h1, h2, h3, h4, h5, h6 {
     font-weight: var(--fw-bold);
  }
  .display #hamburger {
-    position: absolute;
-    top: -1rem;
-    right: 1%;
+    position: fixed;
+    top: 1rem;
+    right: -1%;
     color: var(--clr-visible-text);
     z-index: 1;
     font-size: var(--fs-med);
@@ -281,16 +272,8 @@ p, h1, h2, h3, h4, h5, h6 {
 
  /* @media queries*/
 
- /*@media (min-width: 320px) {
-    .display h1 {
-        font-size: var(--fs-x-small);
-    }
-  
- }*/
+
  @media (min-width: 375px) { 
-    /*.display h1 {
-        font-size: var(--fs-x-small);
-    } */
    .subdisplay h3 {
       font-size: var(--fs-small);
       padding: 0.3em;
@@ -298,9 +281,6 @@ p, h1, h2, h3, h4, h5, h6 {
  }
 
  @media (min-width: 425px) {
-    /*.display h1 {
-        font-size: var(--fs-small);
-    } */
     .subdisplay h3 {
       font-size: var(--fs-s-med);
     }
