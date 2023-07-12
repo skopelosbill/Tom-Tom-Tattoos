@@ -224,17 +224,20 @@ p, h1, h2, h3, h4, h5, h6 {
    color:var(--clr-visible-text);
    margin-bottom: 1rem;
 }
-.testimonials > .name {
-   text-align: left;
-   font-size: var(--fs-small); 
+.testimonials > #open {
+   margin-left: 0;
+   font-size: var(--fs-med); 
    padding-top: 1em;
    padding-bottom: 0.5 em;
 }
 .testimonials > .comment {
    text-align: center;
-   font-size: var(--fs-x-small);
-   padding-bottom: 1em;
-   border-bottom: 0.1em solid var(--clr-visible-text)
+   font-size: var(--fs-x-small);  
+}
+.testimonials > #close {
+   margin-left: 100%;
+   font-size: var(--fs-med); 
+   padding-bottom: 0.5 em; 
 }
 
  /* @media queries*/
