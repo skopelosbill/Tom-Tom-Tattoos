@@ -257,7 +257,7 @@ p, h1, h2, h3, h4, h5, h6 {
    font-size: var(--fs-x-small); 
 }
 .contact-form {
-   width: 50%;
+   width: 66.7%;
    height: auto;
    margin: 0 auto;
    font-family: var(--ff-para);
