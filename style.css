@@ -24,6 +24,7 @@
     --clr-smoke-shadow: hsl(29, 100%, 10%);
     --clr-invisible-text: hsl(29, 100%, 80%);
     --clr-visible-text: hsl(29, 100%, 20%);
+    --clr-visible-text-pale: hsla(29, 100%, 20%, 0.5);
 }
 
 
@@ -240,6 +241,85 @@ p, h1, h2, h3, h4, h5, h6 {
    padding-bottom: 0.5 em; 
 }
 
+/*Contact*/
+
+.question {
+   width: 66.7%;
+   height: auto;
+   margin: 0 auto;
+   font-family: var(--ff-para);
+   font-weight: var(--fw-regular);
+   color:var(--clr-visible-text);
+   margin-bottom: 1rem;
+}
+.question > .lead {
+   text-align: center;
+   font-size: var(--fs-x-small); 
+}
+.contact-form {
+   width: 50%;
+   height: auto;
+   margin: 0 auto;
+   font-family: var(--ff-para);
+   font-weight: var(--fw-regular);
+   color:var(--clr-visible-text);
+   margin-bottom: 1rem;
+}
+.input-group {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      width: 100%;
+      margin-bottom: 2em;
+}
+.input-group-text {
+   padding: 10px;
+   background: var(--clr-visible-text);
+   color: var(--clr-bg);
+   min-width: 50px;
+   text-align: center;
+   font-size: var(--fs-x-small);
+ }
+.form-label{
+   font-family: var(--ff-headings);
+   text-align: left;
+   font-size: var(--fs-x-small);
+}
+.form-control {
+   width: 95%;
+   padding: 0.5em;
+   background-color: var(--clr-bg);
+   border: solid 0.1em var(--clr-visible-text-pale);
+}
+.form-control:focus {
+   border: solid 0.2em var(--clr-visible-text);
+}
+.form-select {
+   background-color: var(--clr-bg);
+   font-family: var(--ff-para);
+   font-size: var(--fs-x-small);
+   color: var(--clr-visible-text);
+}
+::placeholder {
+   font-family: var(--ff-para);
+   font-size: var(--fs-x-small);
+   color: var(--clr-visible-text-pale);
+}
+.fa {
+   font-size: var(--fs-x-small);
+}
+button {
+   width: 100%;
+   background-color: var(--clr-bg);
+   color: var(--clr-visible-text);
+   margin: 1em 0 1em 0;
+   padding: 1em 0 1em 0;
+   font-family: var(--ff-para);
+   font-size: var(--fs-x-small);
+}
+.button:hover {
+   background-color: var(--clr-visible-text) ;
+   color: var(--clr-bg);
+}
  /* @media queries*/
 
 
@@ -247,6 +327,8 @@ p, h1, h2, h3, h4, h5, h6 {
    .subdisplay h3 {
       font-size: var(--fs-small);
       padding: 0.3em;
+    }
+    
     }
  }
 
@@ -268,6 +350,16 @@ p, h1, h2, h3, h4, h5, h6 {
       width: 45vw;
       height: calc(45vw * 4 / 3);
     }
+    .flex-container > div,
+    .question > .lead,
+    .input-group-text,
+    .form-label,
+    .form-select,
+    ::placeholder, 
+    .fa,
+    .button {
+      font-size: var(--fs-small)
+    }
  }
  @media (min-width: 465px){
    .display h1 {
@@ -286,12 +378,17 @@ p, h1, h2, h3, h4, h5, h6 {
       font-size: var(--fs-med);
       padding: 0.4em;
     }
-    .flex-container > div {
+    .flex-container > div,
+    .question > .lead,
+    .input-group-text,
+    .form-label,
+    .form-select,
+    ::placeholder, 
+    .fa,
+    .button {
       font-size: var(--fs-s-med)
     }
- }
- @media(min-width: 780px) {
-   .flex-container {
+    
       flex-direction: row;
     }
     .grid-container {
@@ -310,6 +407,16 @@ p, h1, h2, h3, h4, h5, h6 {
     } 
     .subdisplay h3 {
       font-size: var(--fs-lge);
+    }
+    .flex-container > div,
+    .question > .lead,
+    .input-group-text,
+    .form-label,
+    .form-select,
+    ::placeholder, 
+    .fa,
+    .button {
+      font-size: var(--fs-med)
     }
     
  }
@@ -336,6 +443,16 @@ p, h1, h2, h3, h4, h5, h6 {
     .photo {
       width: 15vw;
       height: calc(15vw * 4 / 3)
+    }
+    .flex-container > div,
+    .question > .lead,
+    .input-group-text,
+    .form-label,
+    .form-select,
+    ::placeholder, 
+    .fa,
+    .button {
+      font-size: var(--fs-lge)
     }
  }
  
