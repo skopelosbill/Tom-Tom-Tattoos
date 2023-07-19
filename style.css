@@ -137,7 +137,6 @@ p, h1, h2, h3, h4, h5, h6 {
     width:40%;
     height:auto;
     margin: auto;
-    /*box-shadow: 1em 1em 2em var(--clr-smoke-shadow);*/
     margin-top: 1em;
     margin-bottom: 1em;
    
@@ -304,7 +303,7 @@ p, h1, h2, h3, h4, h5, h6 {
    font-size: var(--fs-x-small);
    color: var(--clr-visible-text-pale);
 }
-.fa {
+.icon {
    font-size: var(--fs-x-small);
 }
 button {
@@ -315,6 +314,8 @@ button {
    padding: 1em 0 1em 0;
    font-family: var(--ff-para);
    font-size: var(--fs-x-small);
+   border-radius: 0;
+   border-color: var(--clr-visible-text);
 }
 .button:hover {
    background-color: var(--clr-visible-text) ;
@@ -356,7 +357,7 @@ button {
     .form-label,
     .form-select,
     ::placeholder, 
-    .fa,
+    .icon,
     .button {
       font-size: var(--fs-small)
     }
@@ -390,7 +391,7 @@ button {
     .form-label,
     .form-select,
     ::placeholder, 
-    .fa,
+    .icon,
     .button {
       font-size: var(--fs-s-med)
     }
@@ -425,7 +426,7 @@ button {
     .form-label,
     .form-select,
     ::placeholder, 
-    .fa,
+    .icon,
     .button {
       font-size: var(--fs-med)
     }
@@ -466,7 +467,7 @@ button {
     .form-label,
     .form-select,
     ::placeholder, 
-    .fa,
+    .icon,
     .button {
       font-size: var(--fs-lge)
     }
