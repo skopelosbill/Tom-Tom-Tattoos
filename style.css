@@ -311,6 +311,10 @@ p, h1, h2, h3, h4, h5, h6 {
    border-radius: 0;
    border:solid 0.1em var(--clr-visible-text-pale); 
 }
+.form-select:focus {
+   border: solid 0.2em var(--clr-visible-text);
+   border-radius: 0;
+}
  .form-select > .choice {
    background-color: var(--clr-visible-text);
    color: var(--clr-bg);
