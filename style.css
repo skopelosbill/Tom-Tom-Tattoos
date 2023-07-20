@@ -271,6 +271,7 @@ p, h1, h2, h3, h4, h5, h6 {
       display: flex;
       width: 100%;
       margin-bottom: 2em;
+      border: none;
 }
 .input-group-text {
    padding: 10px;
@@ -289,6 +290,7 @@ p, h1, h2, h3, h4, h5, h6 {
    width: 95%;
    padding: 0.5em;
    background-color: var(--clr-bg);
+   border: none;
    border: solid 0.1em var(--clr-visible-text-pale);
 }
 .form-control:focus {
@@ -316,7 +318,7 @@ button {
    padding: 1em 0 1em 0;
    font-family: var(--ff-para);
    font-size: var(--fs-x-small);
-   border-radius: 0;
+   border: none;
    border-color: var(--clr-visible-text);
 }
 .button:hover {
