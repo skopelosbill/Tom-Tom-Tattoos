@@ -308,6 +308,7 @@ p, h1, h2, h3, h4, h5, h6 {
    font-size: var(--fs-x-small);
    color: var(--clr-visible-text);
    border: none;
+   border-radius: 0;
    border:solid 0.1em var(--clr-visible-text-pale); 
 }
  .form-select > .choice {
