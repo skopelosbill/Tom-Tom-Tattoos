@@ -270,6 +270,7 @@ p, h1, h2, h3, h4, h5, h6 {
       display: -ms-flexbox; /* IE10 */
       display: flex;
       width: 100%;
+      outline: none;
       margin-bottom: 2em;
       border: none;
 }
@@ -290,6 +291,7 @@ p, h1, h2, h3, h4, h5, h6 {
    width: 95%;
    padding: 0.5em;
    background-color: var(--clr-bg);
+   outline: none;
    border: none;
    border: solid 0.1em var(--clr-visible-text-pale);
 }
@@ -318,8 +320,9 @@ button {
    padding: 1em 0 1em 0;
    font-family: var(--ff-para);
    font-size: var(--fs-x-small);
+   outline: none;
    border: none;
-   border-color: var(--clr-visible-text);
+   border: solid 0.1em var(--clr-visible-text-pale);
 }
 .button:hover {
    background-color: var(--clr-visible-text) ;
