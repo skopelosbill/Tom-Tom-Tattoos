@@ -307,8 +307,10 @@ p, h1, h2, h3, h4, h5, h6 {
    font-family: var(--ff-para);
    font-size: var(--fs-x-small);
    color: var(--clr-visible-text);
+   border: none;
+   border:solid 0.1em var(--clr-visible-text-pale); 
 }
- .choice::selected {
+ .form-select > .choice {
    background-color: var(--clr-visible-text);
    color: var(--clr-bg);
 }
