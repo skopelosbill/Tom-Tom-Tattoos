@@ -297,6 +297,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .form-control:focus {
    border: solid 0.2em var(--clr-visible-text);
+   border-radius: 0;
 }
 .form-select {
    background-color: var(--clr-bg);
@@ -325,8 +326,9 @@ button {
    border: solid 0.1em var(--clr-visible-text-pale);
 }
 .button:hover {
-   background-color: var(--clr-visible-text) ;
+   background-color: var(--clr-visible-text);
    color: var(--clr-bg);
+   border-radius: 0;
 }
  /* @media queries*/
 
