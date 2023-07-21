@@ -107,30 +107,34 @@
         <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
     </div>
     <div class="contact-form">
-        <form>
-            <label for="email" class="form-label">Email address:</label>
-            <div class="input-group">
-                <span class="input-group-text">
-                    <i class="fa-solid fa-envelope icon"></i>
-                </span>
-                <input type="email" class="form-control" id="email" placeholder=" Your email address">   
-            </div><!--input group-->
-
+        <form action="https://getform.io/f/97c8d7bd-6851-4fe7-b54d-8d296ae7a234" method="POST">
+           
             <label for="name" class="form-label">Name:</label>
             <div class="input-group">
                 <span class="input-group-text">
                     <i class="fa-solid fa-user icon"></i>
                 </span>
-                <input type="text" class="form-control" id="name" placeholder="Your name">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
             </div><!--input group-->
+
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group">
+                <span class="input-group-text">
+                    <i class="fa-solid fa-envelope icon"></i>
+                </span>
+                <input type="email" class="form-control" id="email" name="email" placeholder=" Your email address">   
+            </div><!--input group-->
+
 
             <label for="subject" class="form-label">What questions do you have?</label>
             
             <div>
-                <textarea id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..."></textarea> 
+                <textarea type="text" name="message" id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..."></textarea> 
             </div>
+            <input type="hidden" name="_gotcha" style="display:none !important">
+            <input type="hidden" name="subscribe" value="no">
             <div>
-                <button type="submit" class="button">submit</button>
+                <button type="submit" class="button" value="send">submit</button>
             </div>
         </form>
     </div>
