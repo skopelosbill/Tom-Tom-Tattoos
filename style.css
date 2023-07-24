@@ -247,6 +247,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
 /*Contact*/
 
+.center {
+   text-align:center;
+   width:100%;
+   font-family: var(--ff-para);
+   font-weight: var(--fw-regular);
+   color:var(--clr-visible-text);
+   margin-bottom: 1rem;
+   font-size: var(--fs-x-small);
+}
+
 .question {
    width: 66.7%;
    height: auto;
@@ -256,6 +266,7 @@ p, h1, h2, h3, h4, h5, h6 {
    color:var(--clr-visible-text);
    margin-bottom: 1rem;
 }
+
 .question > .lead {
    text-align: center;
    font-size: var(--fs-x-small); 
@@ -372,6 +383,7 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
+    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -406,6 +418,7 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
+    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -441,6 +454,7 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
+    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -482,6 +496,7 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
+    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
