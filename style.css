@@ -16,7 +16,7 @@
     --fs-xx-small: 0.75rem;
 
     --fw-bold: 700;
-    --fw-semi-bold: 500;
+    --fw-semi-bold: 600;
     --fw-regular: 400;
 
     --clr-bg: hsl(29, 100%, 95%);
@@ -95,13 +95,18 @@ p, h1, h2, h3, h4, h5, h6 {
  .display #hamburger {
     position: fixed;
     top: 0;
-    right: -1%;
+    right: 0;
     color: var(--clr-visible-text);
     z-index: 1;
     font-size: var(--fs-small);
     cursor: pointer;
     transition: margin-left .5s;
-    padding: 16px;
+    margin-top: 1rem;
+    padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+ }
+ .display #hamburger:hover {
+   background-color: var(--clr-visible-text);
+   color: var(--clr-bg);
  }
  
  /*set up for the navbar*/
@@ -120,17 +125,19 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    list-style: none;
  }
  .navbar a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: var(--fs-x-small);
-    color: var(--clr-invisible-text);
+    color: var(--clr-bg);
     display: block;
     transition: 0.3s;
  }
  .navbar a:hover {
-    color: var(--clr-bg);
+    font-weight: var(--fw-semi-bold);
+    text-decoration-line: underline;
  }
 
 /*set up for the lead photo*/
@@ -363,6 +370,7 @@ button {
     .testimonials > #close {
       font-size: var(--fs-s-med);
     }
+    .navbar a,
     .flex-container > div,
     .testimonials > .comment,
     .question > .lead,
@@ -401,6 +409,7 @@ button {
     .testimonials > #close {
       font-size: var(--fs-med);
     }
+    .navbar a,
     .flex-container > div,
     .testimonials > .comment,
     .question > .lead,
@@ -439,6 +448,7 @@ button {
     .testimonials > #close {
       font-size: var(--fs-l-med);
     }
+    .navbar a,
     .flex-container > div,
     .testimonials > .comment,
     .question > .lead,
@@ -483,6 +493,7 @@ button {
     .testimonials > #close {
       font-size: var(--fs-x-lge);
     }
+    .navbar a,
     .flex-container > div,
     .testimonials > .comment,
     .question > .lead,
