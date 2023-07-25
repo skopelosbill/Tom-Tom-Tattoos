@@ -111,10 +111,10 @@ p, h1, h2, h3, h4, h5, h6 {
  
  /*set up for the navbar*/
 
- .navbar {
+nav {
     transition: background-color 0.5s;
  }
- .navbar {
+ nav {
     height: 100%;
     width: 0;
     position: fixed;
@@ -125,9 +125,8 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    list-style: none;
  }
- .navbar a {
+ nav a {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
     font-size: var(--fs-x-small);
@@ -135,9 +134,12 @@ p, h1, h2, h3, h4, h5, h6 {
     display: block;
     transition: 0.3s;
  }
- .navbar a:hover {
+ nav a:hover {
     font-weight: var(--fw-semi-bold);
     text-decoration-line: underline;
+ }
+ ul {
+   list-style-type: none;
  }
 
 /*set up for the lead photo*/
