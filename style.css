@@ -197,26 +197,8 @@ p, h1, h2, h3, h4, h5, h6 {
    width: 90vw;
    height: calc(90vw * 4 / 3);
    margin: 0 auto;
- 
 }
-#photo1 {
-   background-color: red;
-}
-#photo2 {
-   background-color: orange;
-}
-#photo3 {
-   background-color: yellow;
-}
-#photo4 {
-   background-color: green;
-}
-#photo5 {
-   background-color: blue;
-}
-#photo6 {
-   background-color: purple;
-}
+
 
 /*Testimonials*/
 
