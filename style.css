@@ -236,7 +236,7 @@ p, h1, h2, h3, h4, h5, h6 {
    font-weight: var(--fw-regular);
    color:var(--clr-visible-text);
    margin-bottom: 1rem;
-   font-size: var(--fs-x-small);
+   font-size: var(--fs-small);
 }
 
 .question {
@@ -365,7 +365,6 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
-    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -375,7 +374,11 @@ button {
     .button {
       font-size: var(--fs-small)
     }
+    .center {
+      font-size: var(--fs-s-med);
+    }
  }
+
 
  @media (min-width: 465px){
    .display h1 {
@@ -400,7 +403,6 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
-    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -409,6 +411,9 @@ button {
     .icon,
     .button {
       font-size: var(--fs-s-med)
+    }
+    .center {
+      font-size: var(--fs-med);
     }
     .flex-container {
       flex-direction: row;
@@ -436,7 +441,6 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
-    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -445,6 +449,9 @@ button {
     .icon,
     .button {
       font-size: var(--fs-med)
+    }
+    .center {
+      font-size: var(--fs-lge);
     }
     
  }
@@ -478,7 +485,6 @@ button {
     }
     .flex-container > div,
     .testimonials > .comment,
-    .center,
     .question > .lead,
     .input-group-text,
     .form-label,
@@ -487,6 +493,9 @@ button {
     .icon,
     .button {
       font-size: var(--fs-lge)
+    }
+    .center {
+      font-size: var(--fs-xxx-lge);
     }
  }
  
