@@ -20,27 +20,27 @@
    <header>
     <div class="display" id="display">
         <h1 id="headtext">TOM TOM TATTOO</h1>
-        <i class="fa-solid fa-bars" id="hamburger" role="navigation" onclick="openNav()"></i>
+        <i class="fa-solid fa-bars" id="hamburger" role="navigation" aria-label="off-screen navigation bar"  onclick="openNav()"></i>
     </div>
 
     <!--Off screen navigation bar-->
 
-    <nav class="navbar" id="nav">
+    <nav class="navbar" id="nav" aria-label="navigation bar">
         <ul role="list">
             <li>
-                <a href="#display"  onclick="closeNav()">Home</a>
+                <a href="#display" aria-label="home"  onclick="closeNav()">Home</a>
             </li>
             <li>
-                <a href="#about" onclick="closeNav()">About</a>
+                <a href="#about" aria-label="about" onclick="closeNav()">About</a>
             </li>
             <li>
-                <a href="#gallery" onclick="closeNav()">Gallery</a>
+                <a href="#gallery" aria-label="gallery" onclick="closeNav()">Gallery</a>
             </li>
             <li>
-                <a href="#testimonials" onclick="closeNav()">Testimonials</a>
+                <a href="#testimonials" aria-label="testimonials" onclick="closeNav()">Testimonials</a>
             </li>
             <li>
-                <a href="#contact" onclick="closeNav()">Contact</a>
+                <a href="#contact" aria-label="contact" onclick="closeNav()">Contact</a>
             </li>  
         </ul>
     </nav>
@@ -50,109 +50,114 @@
 
     <!--Main photo-->
 
-    <div class="leadphoto">
+    <div class="leadphoto" aria-label="main photohraph">
         <img src="/assets/snakedagger2.1.jpg" alt="Original design work by Tom Tom of a bloody curved dagger with an intertwined snake">
     </div>
 
     <!--About-->
 
-    <div class="subdisplay" id="about">
-        <h3>About</h3>
-    </div>  
-    <div class="flex-container">
-        <div id="box1">
-            <p class="intro">Hi! my name is Tom Bradley. I'm a tattoo artist based in the town I grew up in, Bournemouth on the beautiful south coast of the UK.  I have been tattooing for nearly a decade now, gaining extensive knowledge of the craft from everyone I have had the pleasure to work alongside. </p>
+    <section class="about" aria-label="about">
+        <div class="subdisplay" id="about">
+            <h2>About</h2>
+        </div>  
+        <div class="flex-container">
+            <div id="box1" aria-label="Textual description of the website subject - Tom Bradley">
+                <p class="intro">Hi! my name is Tom Bradley. I'm a tattoo artist based in the town I grew up in, Bournemouth on the beautiful south coast of the UK.  I have been tattooing for nearly a decade now, gaining extensive knowledge of the craft from everyone I have had the pleasure to work alongside. </p>
                 
-            <p class="intro">A lot of people ask me what my 'style' is. And honestly, I don't think I could tell you, but I think it shows in whichever category of tattoo I set my hand to. I Love to tattoo! Whether it be small or large, colour or black and grey, ornamental, new school, neo-traditional, script or abstract and chaotic.Anything that gets my mind working and my heart happy.</p>
+                <p class="intro">A lot of people ask me what my 'style' is. And honestly, I don't think I could tell you, but I think it shows in whichever category of tattoo I set my hand to. I Love to tattoo! Whether it be small or large, colour or black and grey, ornamental, new school, neo-traditional, script or abstract and chaotic.Anything that gets my mind working and my heart happy.</p>
                 
-            <p class="intro">My main goal is to make you, my client, happy. All tattoos are unique and cherished by the people wearing them, and to do this for you is an honour. I have always loved to draw for myself and friends. I would draw on myself and my notebooks constantly. Tattooing has been a natural and organic evolution of my life and the only career I have enjoyed and striven to master.</p>
+                <p class="intro">My main goal is to make you, my client, happy. All tattoos are unique and cherished by the people wearing them, and to do this for you is an honour. I have always loved to draw for myself and friends. I would draw on myself and my notebooks constantly. Tattooing has been a natural and organic evolution of my life and the only career I have enjoyed and striven to master.</p>
                 
-            <p class="intro">Here on this website you will find an array of different tattoos I have created and applied, showcasing what I feel are my best and favourite styles to do. I customise each and every piece I do, and never repeat them, this ensures my clients have something unique, for them and them alone.</p> 
+                <p class="intro">Here on this website you will find an array of different tattoos I have created and applied, showcasing what I feel are my best and favourite styles to do. I customise each and every piece I do, and never repeat them, this ensures my clients have something unique, for them and them alone.</p> 
                 
-            <p class="intro">So take a gander, and if you see something that sparks you, feel free to send me an email with your ideas. I can't wait to hear them and work with you to make a tattoo you will love forever.</p>
-        </div>
-        <div id="box2">
+                <p class="intro">So take a gander, and if you see something that sparks you, feel free to send me an email with your ideas. I can't wait to hear them and work with you to make a tattoo you will love forever.</p>
+            </div>
+            <div id="box2" aria-label="photograph of Tom Bradley">
             <img src="/assets/tomatwork.jpg" alt="A photograph of Tom working on a client">
+            </div>
         </div>
-    </div>
+    </section>
 
     <!--Gallery-->
 
-    <div class="subdisplay" id="gallery">
-        <h3>Gallery</h3>
-    </div>
-    <div class="grid-container">
-        <img src="/assets/Baby-Groot.jpg" class="photo" id="photo1" alt="A cartoon of Baby Groot from 'Guardians of the Galaxy'" loading="lazy">
-        <img src="/assets/bio-mechanical.jpg" class="photo" id="photo2" alt="This photo is called 'Bio Mechanical' and it is an abstract mix between naturally occuring textures and sci-fi imagery" loading="lazy">
-        <img src="/assets/elijah.jpg" class="photo" id="photo3" alt="'Elijah' is a piece of free-hand work, loosely based on old Chicano style lettering" loading="lazy">
-        <img src="/assets/freddie.jpg" class="photo" id="photo4" alt="Can it be anyone else but the late great 'Freddie Mercury'" loading="lazy">
-        <img src="/assets/lion.jpg" class="photo" id="photo5" alt="the head of a lion tattoed on the back of a hand" loading="lazy">
-        <img src="/assets/wolf.jpg" class="photo" id="photo6" alt="the head of a wolf tattoed on a bicep" loading="lazy">
-    </div>
+    <section class="gallery" aria-label="gallery">
+        <div class="subdisplay" id="gallery">
+            <h2>Gallery</h2>
+        </div>
+        <div class="grid-container">
+            <img src="/assets/Baby-Groot.jpg" class="photo" id="photo1" alt="A cartoon of Baby Groot from 'Guardians of the Galaxy'" loading="lazy">
+            <img src="/assets/bio-mechanical.jpg" class="photo" id="photo2" alt="This photo is called 'Bio Mechanical' and it is an abstract mix between naturally occuring textures and sci-fi imagery" loading="lazy">
+            <img src="/assets/elijah.jpg" class="photo" id="photo3" alt="'Elijah' is a piece of free-hand work, loosely based on old Chicano style lettering" loading="lazy">
+            <img src="/assets/freddie.jpg" class="photo" id="photo4" alt="Can it be anyone else but the late great 'Freddie Mercury'" loading="lazy">
+            <img src="/assets/lion.jpg" class="photo" id="photo5" alt="the head of a lion tattoed on the back of a hand" loading="lazy">
+            <img src="/assets/wolf.jpg" class="photo" id="photo6" alt="the head of a wolf tattoed on a bicep" loading="lazy">
+        </div>
+    </section>
+    
 
     <!--Testimonials-->
 
-    <div class="subdisplay" id="testimonials">
-        <h3>Testimonials</h3>
-    </div>
-    <div class="testimonials">
-        <i class="fa-solid fa-quote-left" id="open"></i>
-        <p class="comment">Absolutely amazing experience throughout all of my sessions while Tom designed and completed my custom made music sleeve.  Over this lengthy but incredible time, me and Tom have become great friends and it's a pleasure to have his talent forever imprinted on me. This sleeve is filled with some of my most precious and close to home memories and I couldn't think of anyone else to trust with such an important piece.  Thank you Tom for the awesome artwork, looking forward to more!</p>
-        <i class="fa-solid fa-quote-right" id="close"></i>
-        <i class="fa-solid fa-quote-left" id="open"></i>
-        <p class="comment">Had a matching sister tattoo designed by Tom and another small piece and throughout the whole process Tom was friendly, fun and professional.  Will be looking to get more additions from this talented dude!</p>
-        <i class="fa-solid fa-quote-right" id="close"></i>
-        <i class="fa-solid fa-quote-left" id="open"></i>
-        <p class="comment">My experiences with Tom from Rag&Bone Tattoos, I first saw Tom always drawing and designing new tattoos on his iPad which I immediately liked the style of and listening to him working and chatting to people in the shop, I realised he's very down to earth and chill / respectful of his clients.  His calm nature makes nervous people like myself instantly feel better and I think that's a perfect quality to have in a tattooist.  I've been getting quite a few tattoos from Tom & working with him to cover my thighs in different style tattoos which he's always patient with me and works with me to get the right tattoo I'm looking for. Tom is a gentle tattooist / very soft in the way he tattoos which for me helps especially because tattoos really bloody hurt lol.  Tom isn't afraid to mix things up and suggest to add or remove little things that he believes would add or take away from a tattoo.  I hope to work with Tom to continue my thigh tattoos & then move on to different areas after &#x1F60a;</p>
-        <i class="fa-solid fa-quote-right" id="close"></i>  
-    </div>
-
+    <section class="testimonials" aria-label="testimonials">
+        <div class="subdisplay" id="testimonials">
+            <h2>Testimonials</h2>
+        </div>
+        <div class="testimonials">
+            <i class="fa-solid fa-quote-left" id="open"></i>
+            <p class="comment">Absolutely amazing experience throughout all of my sessions while Tom designed and completed my custom made music sleeve.  Over this lengthy but incredible time, me and Tom have become great friends and it's a pleasure to have his talent forever imprinted on me. This sleeve is filled with some of my most precious and close to home memories and I couldn't think of anyone else to trust with such an important piece.  Thank you Tom for the awesome artwork, looking forward to more!</p>
+            <i class="fa-solid fa-quote-right" id="close"></i>
+            <i class="fa-solid fa-quote-left" id="open"></i>
+            <p class="comment">Had a matching sister tattoo designed by Tom and another small piece and throughout the whole process Tom was friendly, fun and professional.  Will be looking to get more additions from this talented dude!</p>
+            <i class="fa-solid fa-quote-right" id="close"></i>
+            <i class="fa-solid fa-quote-left" id="open"></i>
+            <p class="comment">My experiences with Tom from Rag&Bone Tattoos, I first saw Tom always drawing and designing new tattoos on his iPad which I immediately liked the style of and listening to him working and chatting to people in the shop, I realised he's very down to earth and chill / respectful of his clients.  His calm nature makes nervous people like myself instantly feel better and I think that's a perfect quality to have in a tattooist.  I've been getting quite a few tattoos from Tom & working with him to cover my thighs in different style tattoos which he's always patient with me and works with me to get the right tattoo I'm looking for. Tom is a gentle tattooist / very soft in the way he tattoos which for me helps especially because tattoos really bloody hurt lol.  Tom isn't afraid to mix things up and suggest to add or remove little things that he believes would add or take away from a tattoo.  I hope to work with Tom to continue my thigh tattoos & then move on to different areas after &#x1F60a;</p>
+            <i class="fa-solid fa-quote-right" id="close"></i>  
+        </div>       
+    </section>
+   
     <!--contact-->
+
+    <section class="contact" aria-label="contact">
+        <div class="subdisplay" id="contact">
+            <h2>Contact</h2>
+        </div>
+        <div class="center">
+            <a href="https://www.facebook.com/profile.php?id=100093240949651" aria-label="Link to tomtomtattoo's Facebook page"><span><i class="fa-brands fa-facebook"></i></span></a>
+            <a href="https://instagram.com/tom_tom_tattoo?igshid=OGQ5ZDc2ODk2ZA==" aria-label="link to tomtomtattoo's Instagram page"><span><i class="fa-brands fa-square-instagram"></i></span></a>
+        </div>
+        <div class="question">
+            <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+        </div>
+        <div class="contact-form">
+            <form action="" method="POST">
+               
+                <label for="name" class="form-label" aria-label="name" aria-required="true">Name:</label>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <i class="fa-solid fa-user icon"></i>
+                    </span>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                </div><!--input group-->
     
-    <div class="subdisplay" id="contact">
-        <h3>Contact</h3>
-    </div>
-    <div class="center">
-        
-        <a href="https://www.facebook.com/profile.php?id=100093240949651" aria-label="Link to tomtomtattoo's Facebook page"><span><i class="fa-brands fa-facebook"></i></span></a>
-        <a href="https://instagram.com/tom_tom_tattoo?igshid=OGQ5ZDc2ODk2ZA==" aria-label="link to tomtomtattoo's Instagram page"><span><i class="fa-brands fa-square-instagram"></i></span></a>
-    </div>
-    <div class="question">
-        
-        <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
-    </div>
-    <div class="contact-form">
-        <form action="" method="POST">
-           
-            <label for="name" class="form-label">Name:</label>
-            <div class="input-group">
-                <span class="input-group-text">
-                    <i class="fa-solid fa-user icon"></i>
-                </span>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
-            </div><!--input group-->
-
-            <label for="email" class="form-label">Email address:</label>
-            <div class="input-group">
-                <span class="input-group-text">
-                    <i class="fa-solid fa-envelope icon"></i>
-                </span>
-                <input type="email" class="form-control" id="email" name="email" placeholder=" Your email address" required>   
-            </div><!--input group-->
-
-
-            <label for="subject" class="form-label">What questions do you have?</label>
-            
-            <div>
-                <textarea type="text" name="message" id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..." required></textarea> 
-            </div>
-            <input type="hidden" name="_gotcha" style="display:none !important">
-            <input type="hidden" name="subscribe" value="no">
-            <div>
-                <button type="submit" class="button" value="send">submit</button>
-            </div>
-        </form>
-    </div>
+                <label for="email" class="form-label" aria-label="email" aria-required="true">Email address:</label>
+                <div class="input-group">
+                    <span class="input-group-text">
+                        <i class="fa-solid fa-envelope icon"></i>
+                    </span>
+                    <input type="email" class="form-control" id="email" name="email" placeholder=" Your email address" required>   
+                </div><!--input group-->
+    
+    
+                <label for="subject" class="form-label" aria-label="What questions do you have?">What questions do you have?</label>
+                <div>
+                    <textarea type="text" name="message" id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..." aria-label="message" aria-required="true" required></textarea> 
+                </div>
+                <input type="hidden" name="_gotcha" style="display:none !important">
+                <input type="hidden" name="subscribe" value="no">
+                <div>
+                    <button type="submit" class="button" value="send" aria-label="send">submit</button>
+                </div>
+            </form>     
+    </section>
    </main>
 
 <script src="script.js"></script>
