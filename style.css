@@ -339,6 +339,7 @@ nav {
    font-family: var(--ff-para);
    font-weight: var(--fw-regular);
    color:var(--clr-visible-text);
+   padding-bottom: 2rem;
    margin-bottom: 1rem;
 }
 .input-group {
