@@ -237,6 +237,7 @@ nav {
 .grid-container2 > .photo1:hover {
   box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
   transform: scale(1.1);
+  transition-timing-function: ease-in-out;
 	transition: 1s;
 	z-index: 3;
  
@@ -245,6 +246,7 @@ nav {
 .grid-container2 > .photo2:hover {
   box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
   transform: scale(1.1);
+  transition-timing-function: ease-in-out;
 	transition: 1s;
 	z-index: 3;
  
@@ -252,6 +254,7 @@ nav {
 .grid-container2 > .photo3:hover {
   box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
   transform: scale(1.1);
+  transition-timing-function: ease-in-out;
 	transition: 1s;
 	z-index: 3;
  
@@ -259,6 +262,7 @@ nav {
 .grid-container2 > .photo4:hover {
   box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
   transform: scale(1.1);
+  transition-timing-function: ease-in-out;
 	transition: 1s;
 	z-index: 3;
  
@@ -266,6 +270,7 @@ nav {
 .grid-container2 > .photo5:hover {
   box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
   transform: scale(1.1);
+  transition-timing-function: ease-in-out;
 	transition: 1s;
 	z-index: 3;
  
@@ -273,6 +278,7 @@ nav {
 .grid-container2 > .photo6:hover {
   box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
   transform: scale(1.1);
+  transition-timing-function: ease-in-out;
 	transition: 1s;
 	z-index: 3;
  
