@@ -313,7 +313,8 @@ nav {
    font-family: var(--ff-para);
    font-weight: var(--fw-regular);
    color:var(--clr-visible-text);
-   margin-bottom: 1rem;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
    font-size: var(--fs-small);
 }
 
