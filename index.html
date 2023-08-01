@@ -29,7 +29,7 @@
     <!--Off screen navigation bar-->
 
     <nav class="navbar" id="nav" aria-label="navigation bar">
-        <ul role="list">
+        <ul>
             <li>
                 <a href="#display" aria-label="home"  onclick="closeNav()">Home</a>
             </li>
@@ -53,8 +53,8 @@
 
     <!--Main photo-->
 
-    <div class="leadphoto" aria-label="main photohraph">
-        <img src="/assets/snakedagger2.1.jpg" alt="Original design work by Tom Tom of a bloody curved dagger with an intertwined snake">
+    <div class="leadphoto" >
+        <img src="/assets/snakedagger2.1.jpg" aria-label="main photograph" alt="Original design work by Tom Tom of a bloody curved dagger with an intertwined snake">
     </div>
 
     <!--About-->
@@ -88,7 +88,7 @@
             <h2>Gallery</h2>
         </div>
         <div class="grid-container2">
-            <img src="/assets/Baby-Groot.jpg" class="photo1" id="photo1" alt="A cartoon of Baby Groot from 'Guardians of the Galaxy'" loading="lazy" tabindes="0">
+            <img src="/assets/Baby-Groot.jpg" class="photo1" id="photo1" alt="A cartoon of Baby Groot from 'Guardians of the Galaxy'" loading="lazy" tabindex="0">
             <img src="/assets/bio-mechanical.jpg" class="photo2" id="photo2" alt="This photo is called 'Bio Mechanical' and it is an abstract mix between naturally occuring textures and sci-fi imagery" loading="lazy" tabindex="0">
             <img src="/assets/elijah.jpg" class="photo3" id="photo3" alt="'Elijah' is a piece of free-hand work, loosely based on old Chicano style lettering" loading="lazy" tabindex="0">
             <img src="/assets/freddie.jpg" class="photo4" id="photo4" alt="Can it be anyone else but the late great 'Freddie Mercury'" loading="lazy" tabindex="0">
@@ -105,15 +105,15 @@
             <h2>Testimonials</h2>
         </div>
         <div class="testimonials">
-            <i class="fa-solid fa-quote-left" id="open"></i>
+            <i class="fa-solid fa-quote-left"></i>
             <p class="comment">Absolutely amazing experience throughout all of my sessions while Tom designed and completed my custom made music sleeve.  Over this lengthy but incredible time, me and Tom have become great friends and it's a pleasure to have his talent forever imprinted on me. This sleeve is filled with some of my most precious and close to home memories and I couldn't think of anyone else to trust with such an important piece.  Thank you Tom for the awesome artwork, looking forward to more!</p>
-            <i class="fa-solid fa-quote-right" id="close"></i>
-            <i class="fa-solid fa-quote-left" id="open"></i>
+            <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-left"></i>
             <p class="comment">Had a matching sister tattoo designed by Tom and another small piece and throughout the whole process Tom was friendly, fun and professional.  Will be looking to get more additions from this talented dude!</p>
-            <i class="fa-solid fa-quote-right" id="close"></i>
-            <i class="fa-solid fa-quote-left" id="open"></i>
+            <i class="fa-solid fa-quote-right"></i>
+            <i class="fa-solid fa-quote-left"></i>
             <p class="comment">My experiences with Tom from Rag&Bone Tattoos, I first saw Tom always drawing and designing new tattoos on his iPad which I immediately liked the style of and listening to him working and chatting to people in the shop, I realised he's very down to earth and chill / respectful of his clients.  His calm nature makes nervous people like myself instantly feel better and I think that's a perfect quality to have in a tattooist.  I've been getting quite a few tattoos from Tom & working with him to cover my thighs in different style tattoos which he's always patient with me and works with me to get the right tattoo I'm looking for. Tom is a gentle tattooist / very soft in the way he tattoos which for me helps especially because tattoos really bloody hurt lol.  Tom isn't afraid to mix things up and suggest to add or remove little things that he believes would add or take away from a tattoo.  I hope to work with Tom to continue my thigh tattoos & then move on to different areas after &#x1F60a;</p>
-            <i class="fa-solid fa-quote-right" id="close"></i>  
+            <i class="fa-solid fa-quote-right"></i>  
         </div>       
     </section>
    
@@ -131,14 +131,14 @@
             <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
         </div>
         <div class="contact-form">
-            <form action="" method="POST">
+            <form method="POST">
                
-                <label for="name" class="form-label" aria-label="name" aria-required="true">Name:</label>
+                <label for="name" class="form-label" aria-label="name" >Name:</label>
                 <div class="input-group">
                     <span class="input-group-text">
                         <i class="fa-solid fa-user icon"></i>
                     </span>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" aria-required="true" required>
                 </div><!--input group-->
     
                 <label for="email" class="form-label" aria-label="email" aria-required="true">Email address:</label>
@@ -150,16 +150,17 @@
                 </div><!--input group-->
     
     
-                <label for="subject" class="form-label" aria-label="What questions do you have?">What questions do you have?</label>
+                <label for="query" class="form-label" aria-label="What questions do you have?">What questions do you have?</label>
                 <div>
-                    <textarea type="text" name="message" id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..." aria-label="message" aria-required="true" required></textarea> 
+                    <textarea name="message" id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..." aria-label="message" aria-required="true" required></textarea> 
                 </div>
                 <input type="hidden" name="_gotcha" style="display:none !important">
                 <input type="hidden" name="subscribe" value="no">
                 <div>
                     <button type="submit" class="button" value="send" aria-label="send">submit</button>
                 </div>
-            </form>     
+            </form> 
+        </div>        
     </section>
    </main>
 

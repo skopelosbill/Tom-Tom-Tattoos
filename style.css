@@ -295,7 +295,7 @@ nav {
    color:var(--clr-visible-text);
    margin-bottom: 1rem;
 }
-.testimonials > #open {
+.testimonials > .fa-quote-left {
    margin-left: 0;
    font-size: var(--fs-small); 
    padding-top: 1em;
@@ -305,7 +305,7 @@ nav {
    text-align: center;
    font-size: var(--fs-x-small);  
 }
-.testimonials > #close {
+.testimonials > .fa-quote-right {
    margin-left: 100%;
    font-size: var(--fs-small); 
    padding-bottom: 0.5 em; 
