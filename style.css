@@ -283,6 +283,102 @@ nav {
 	z-index: 3;
  
 }
+.grid-container2 > .photo7:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo8:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo9:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo10:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo11:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo12:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo13:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo14:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo15:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo16:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo17:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
+.grid-container2 > .photo18:hover {
+  box-shadow: 10px 10px 50px var(--clr-smoke-shadow);
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+	transition: 1s;
+	z-index: 3;
+ 
+}
 
 /*Testimonials*/
 
@@ -450,7 +546,19 @@ button {
     .grid-container2 > .photo3:hover,
     .grid-container2 > .photo4:hover,
     .grid-container2 > .photo5:hover,
-    .grid-container2 > .photo6:hover {
+    .grid-container2 > .photo6:hover, 
+    .grid-container2 > .photo7:hover,
+    .grid-container2 > .photo8:hover,
+    .grid-container2 > .photo9:hover,
+    .grid-container2 > .photo10:hover,
+    .grid-container2 > .photo11:hover,
+    .grid-container2 > .photo12:hover, 
+    .grid-container2 > .photo13:hover,
+    .grid-container2 > .photo14:hover,
+    .grid-container2 > .photo15:hover,
+    .grid-container2 > .photo16:hover,
+    .grid-container2 > .photo17:hover,
+    .grid-container2 > .photo18:hover {
       transform: scale(1.2);
     }
     .testimonials > #open,
@@ -535,7 +643,19 @@ button {
     .grid-container2 > .photo3:hover,
     .grid-container2 > .photo4:hover,
     .grid-container2 > .photo5:hover,
-    .grid-container2 > .photo6:hover {
+    .grid-container2 > .photo6:hover, 
+    .grid-container2 > .photo7:hover,
+    .grid-container2 > .photo8:hover,
+    .grid-container2 > .photo9:hover,
+    .grid-container2 > .photo10:hover,
+    .grid-container2 > .photo11:hover,
+    .grid-container2 > .photo12:hover, 
+    .grid-container2 > .photo13:hover,
+    .grid-container2 > .photo14:hover,
+    .grid-container2 > .photo15:hover,
+    .grid-container2 > .photo16:hover,
+    .grid-container2 > .photo17:hover,
+    .grid-container2 > .photo18:hover {
       transform: scale(1.4);
     }
  }
@@ -552,7 +672,19 @@ button {
     .grid-container2 > .photo3:hover,
     .grid-container2 > .photo4:hover,
     .grid-container2 > .photo5:hover,
-    .grid-container2 > .photo6:hover {
+    .grid-container2 > .photo6:hover, 
+    .grid-container2 > .photo7:hover,
+    .grid-container2 > .photo8:hover,
+    .grid-container2 > .photo9:hover,
+    .grid-container2 > .photo10:hover,
+    .grid-container2 > .photo11:hover,
+    .grid-container2 > .photo12:hover, 
+    .grid-container2 > .photo13:hover,
+    .grid-container2 > .photo14:hover,
+    .grid-container2 > .photo15:hover,
+    .grid-container2 > .photo16:hover,
+    .grid-container2 > .photo17:hover,
+    .grid-container2 > .photo18:hover {
       transform: scale(1.5);
     }
     .testimonials > #open,
