@@ -70,6 +70,12 @@ p, h1, h2, h3, h4, h5, h6 {
  body {
     background-color: var(--clr-bg);
  }
+ .specialpic {
+  position: fixed;
+  top: 10rem;
+  right: 0;
+  z-index: -1;
+ }
 
  /*setup for the header*/
 
@@ -157,10 +163,11 @@ nav {
  
  .subdisplay {
    position: relative;
-   width: 100%;
+   width: 70%;
    height: auto;
    background-color: var(--clr-bg);
    border-top: .5vw solid var(--clr-visible-text);
+  margin: 0 auto;
 }
 .subdisplay h2 {
    color: var(--clr-visible-text);
@@ -197,7 +204,7 @@ nav {
         'box4'
         'box5'
         'box6';
-   background-color: var(--clr-bg);
+   background-color: none;
    width: 95%;
    height: auto;
    margin: auto;
