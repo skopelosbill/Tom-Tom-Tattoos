@@ -81,6 +81,7 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: var(--clr-bg);
     border-bottom: 1vw solid var(--clr-visible-text);
  }
+
  .display h1 {
     color: var(--clr-invisible-text);
     text-shadow: 0 0 .5vw var(--clr-smoke-shadow), 0 0 1vw var(--clr-smoke-shadow), 0 0 1.5vw var(--clr-smoke-shadow), 0 0 2vw var(--clr-smoke-shadow), 0 0 2.5vw var(--clr-smoke-shadow), 0 0 3vw var(--clr-smoke-shadow);
