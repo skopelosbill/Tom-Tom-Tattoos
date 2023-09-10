@@ -1,0 +1,17 @@
+.text {
+    font-family: var(--ff-para);
+    font-size: var(--fs-med);
+    color: var(--clr-visible-text);
+    text-align: left;
+    padding: 1em;
+    margin-left: 1em;
+  }
+  .text .box {
+    width: 40vw;
+    height: auto;
+    float: right;
+  }
+  .text p {
+    padding: 0.5em;
+  }
+  

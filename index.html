@@ -17,73 +17,141 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
+
+    <!-- fixed background image to be activated when width > 820px-->
+
+    <!--
+        <img class="bg-img" src="/assets/background-cropped.jpg" alt="a pseudo-text created by Tom">
+    -->   
+
+    <i class="fa-solid fa-bars" id="hamburger" role="navigation" aria-label="off-screen navigation bar"  onclick="openNav()"></i> 
+
     
-    <!--Heading and hamburger-->
+        <nav class="navbar" id="navbar">
+            <h2 class="logo">tom tom tattoo</h2>
+            
+            <ul class="navlinks">
+                <li class="navitem"><a href="index.html">home</a></li>
+                <li class="navitem"><a href="about.html">about</a></li>
+                <li class="navitem"><a href="realistic-gallery.html">realistic</a></li>
+                <li class="navitem"><a href="new-school-gallery.html">new-school</a></li>
+                <li class="navitem"><a href="other-styles-gallery.html">other styles</a></li>
+                <li class="navitem"><a href="testimonials.html">testimonials</a></li>
+                <li class="navitem"><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+   
+    
 
-   <header>
-    <div class="display" id="display">
-        <h1 id="headtext">TOM TOM TATTOO</h1>
-        <i class="fa-solid fa-bars" id="hamburger" role="navigation" aria-label="off-screen navigation bar"  onclick="openNav()"></i>
-    </div>
+    <!--Heading-->
 
-    <!--Off screen navigation bar-->
-
-    <nav class="navbar" id="nav" aria-label="navigation bar">
-        <ul>
-            <li>
-                <a href="#display" aria-label="home"  onclick="closeNav()">Home</a>
-            </li>
-            <li>
-                <a href="#about" aria-label="about" onclick="closeNav()">About</a>
-            </li>
-            <li>
-                <a href="#gallery" aria-label="gallery" onclick="closeNav()">Gallery</a>
-            </li>
-            <li>
-                <a href="#testimonials" aria-label="testimonials" onclick="closeNav()">Testimonials</a>
-            </li>
-            <li>
-                <a href="#contact" aria-label="contact" onclick="closeNav()">Contact</a>
-            </li>  
-        </ul>
-    </nav>
-   </header>
-
-   <main>
-
-    <!--Main photo-->
+    <header>
+        <div class="display" id="display">
+            <h1 id="headtext">TOM TOM TATTOO</h1> 
+        </div>
+    </header>
 
     <div class="leadphoto" >
         <img src="/assets/snakedagger2.1.jpg" aria-label="main photograph" alt="Original design work by Tom Tom of a bloody curved dagger with an intertwined snake">
     </div>
+    
 
+  
+        
+   
+
+   <main>
+   
+
+    
+
+    <!--Main photo-->
+
+   
+   
+
+     <!-- set up the sections for the different pages-->
+    
+
+    <section class="grid-container">
+
+        <!-- For the about page -->
+        <div class="a1"></div>
+        <div class="a2">
+            <h2>About</h2>
+            <h3>Why am I a tattoo artist?</h3>
+            <p>A three minute read to find out more about my tattooing style, attitude and philosophy.  After all, if I'm going to spend up to several hours putting a permanent piece of artwork on your body, shouldn't you know something about me first?</p>
+            <button onclick="window.location.href = 'about.html';">about</button>
+        </div>
+
+        <!-- For the realistic page -->
+        <div class="b1">
+            <h2>Realistic Gallery</h2>
+            <h3>What is a realistic tattoo?</h3>
+            <p>People - popstars, footballers, your spouse or child; animals - wild or domesticated; the subject can be whatever you imagine, I just need a photograph that I can reproduce for you.  Maybe you can get inspiration here!</p>
+            <button onclick="window.location.href = 'realistic-gallery.html';">realistic</button>
+        </div>
+        <div class="b2"></div>
+
+         <!-- For the new-school page -->
+        <div class="c1"></div>
+        <div class="c2">
+            <h2>New-School Gallery</h2>
+            <h3>What is New-School?</h3>
+            <p>New-school is a tattooing style characterised by the use of heavy outlines, vivid colours and exaggerated depictions of the subject. In this gallery I have included some tattoos which may not be strictly new-school but certainly are not traditional.</p>  
+            <button onclick="window.location.href = 'new-school-gallery.html';">new-school</button>
+        </div>
+        
+        
+
+        <!-- For the other styles page -->
+        <div class="d1">
+            <h2>Other Styles Gallery</h2>
+            <h3>What other styles?</h3>
+            <p>Other styles include anything and everything that don't quite fit into the other 3; scripts, cartoons, abstract or geometric designs.  Have a look, there could be anything!</p>  
+            <button onclick="window.location.href = 'other-styles-gallery.html';">other styles gallery</button>
+        </div>
+        <div class="d2"></div>
+        
+
+        <!-- For the testimonials and contact page -->
+        <div class="e1">
+            <h2>Testimonials</h2>
+            <h3>What do my clients say?</h3>
+            <p>Here you will find just a few of the comments people have volunteered after having me tattoo my art onto them.</p>  
+            <button onclick="window.location.href = 'testimonials.html';">testimonials</button>
+        </div>
+        <div class="e2">
+            <img src="assets/background-img6.jpg" alt="cartoon-lemon">
+        </div>
+        <div class="e3">
+            <h2>Contact Me</h2>
+            <h3>What other styles?</h3>
+            <p>Get in touch with me, ask any questions you may have, book in for a consultation, I'm happy to hear from you and look forward to meeting you.</p>  
+            <button onclick="window.location.href = 'contact.html';">contact me</button>
+        </div>
+        </section>
+
+        <footer class="footer">
+            <div class="flex-container">
+                <p>All photographs and text &copy 2023 Thomas Bradley, all rights reserved</p>
+                <p>Website designed and hand-coded by William Bradley</p>
+                <p>For website design, either bespoke hand-coded or using WordPress, please contact William Bradley via Tom Bradley using the form on the <a href="contact.html">contact</a> page</p>
+            </div>
+        </footer>
+    
     <!--About-->
 
-    <section class="about" aria-label="about">
-        <div class="subdisplay" id="about">
-            <h2>About</h2>
-        </div>  
-        <div class="grid-container1">
-            
-                <p class="box1">Hi! my name is Tom Bradley. I'm a tattoo artist based in the town I grew up in, Bournemouth on the beautiful south coast of the UK.  I have been tattooing for nearly a decade now, gaining extensive knowledge of the craft from everyone I have had the pleasure to work alongside. </p>
-                
-                <p class="box2">A lot of people ask me what my 'style' is. And honestly, I don't think I could tell you, but I think it shows in whichever category of tattoo I set my hand to. I Love to tattoo! Whether it be small or large, colour or black and grey, ornamental, new school, neo-traditional, script or abstract and chaotic. Anything that gets my mind working and my heart happy.</p>
+    <!--
+        
+    -->
 
-                <p class="box3">My main goal is to make you, my client, happy. All tattoos are unique and cherished by the people wearing them, and to do this for you is an honour. I have always loved to draw for myself and friends. I would draw on myself and my notebooks constantly. Tattooing has been a natural and organic evolution of my life and the only career I have enjoyed and striven to master.</p> 
-            
-                <img src="/assets/tomatwork.jpg" class="box4" aria-label="photograph of Tom Bradley" alt="A photograph of Tom working on a client">
-            
-                <p class="box5">Here on this website you will find an array of different tattoos I have created and applied, showcasing what I feel are my best and favourite styles to do. I customise each and every piece I do, and never repeat them, this ensures my clients have something unique, for them and them alone.</p> 
-                
-                <p class="box6">So take a gander, and if you see something that sparks you, feel free to send me an email with your ideas. I can't wait to hear them and work with you to make a tattoo you will love forever.</p>
-            
-           
-        </div>
-    </section>
+   
 
     <!--Gallery-->
 
-    <section class="gallery" aria-label="gallery">
+    <!--
+<section class="gallery" aria-label="gallery">
         <div class="subdisplay" id="gallery">
             <h2>Gallery</h2>
         </div>
@@ -108,75 +176,34 @@
             <img src="/assets/christ.jpg" class="photo18" id="photo18" alt="the head of Jesus Christ with crown of thornes pictured above a depiction of three crosses on Mount Calvary" loading="lazy" tabindex="0">
         </div>
     </section>
+    -->
+
     
 
     <!--Testimonials-->
 
-    <section class="testimonials" aria-label="testimonials">
-        <div class="subdisplay" id="testimonials">
-            <h2>Testimonials</h2>
-        </div>
-        <div class="testimonials">
-            <i class="fa-solid fa-quote-left"></i>
-            <p class="comment">Absolutely amazing experience throughout all of my sessions while Tom designed and completed my custom made music sleeve.  Over this lengthy but incredible time, me and Tom have become great friends and it's a pleasure to have his talent forever imprinted on me. This sleeve is filled with some of my most precious and close to home memories and I couldn't think of anyone else to trust with such an important piece.  Thank you Tom for the awesome artwork, looking forward to more!</p>
-            <i class="fa-solid fa-quote-right"></i>
-            <i class="fa-solid fa-quote-left"></i>
-            <p class="comment">Had a matching sister tattoo designed by Tom and another small piece and throughout the whole process Tom was friendly, fun and professional.  Will be looking to get more additions from this talented dude!</p>
-            <i class="fa-solid fa-quote-right"></i>
-            <i class="fa-solid fa-quote-left"></i>
-            <p class="comment">My experiences with Tom from Rag&Bone Tattoos, I first saw Tom always drawing and designing new tattoos on his iPad which I immediately liked the style of and listening to him working and chatting to people in the shop, I realised he's very down to earth and chill / respectful of his clients.  His calm nature makes nervous people like myself instantly feel better and I think that's a perfect quality to have in a tattooist.  I've been getting quite a few tattoos from Tom & working with him to cover my thighs in different style tattoos which he's always patient with me and works with me to get the right tattoo I'm looking for. Tom is a gentle tattooist / very soft in the way he tattoos which for me helps especially because tattoos really bloody hurt lol.  Tom isn't afraid to mix things up and suggest to add or remove little things that he believes would add or take away from a tattoo.  I hope to work with Tom to continue my thigh tattoos & then move on to different areas after &#x1F60a;</p>
-            <i class="fa-solid fa-quote-right"></i>  
-        </div>       
-    </section>
+    <!--
+       
+    -->
+
+    
    
     <!--contact-->
 
-    <section class="contact" aria-label="contact">
-        <div class="subdisplay" id="contact">
-            <h2>Contact</h2>
-        </div>
-        <div class="center">
-            <a href="https://www.facebook.com/profile.php?id=100093240949651" aria-label="Link to tomtomtattoo's Facebook page"><span><i class="fa-brands fa-facebook"></i></span></a>
-            <a href="https://instagram.com/tom_tom_tattoo?igshid=OGQ5ZDc2ODk2ZA==" aria-label="link to tomtomtattoo's Instagram page"><span><i class="fa-brands fa-square-instagram"></i></span></a>
-        </div>
-        <div class="question">
-            <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
-        </div>
-        <div class="contact-form">
-            <form method="POST">
-               
-                <label for="name" class="form-label" aria-label="name" >Name:</label>
-                <div class="input-group">
-                    <span class="input-group-text">
-                        <i class="fa-solid fa-user icon"></i>
-                    </span>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Your name" aria-required="true" required>
-                </div><!--input group-->
+    <!--
+     
+    -->
+
     
-                <label for="email" class="form-label" aria-label="email" >Email address:</label>
-                <div class="input-group">
-                    <span class="input-group-text">
-                        <i class="fa-solid fa-envelope icon"></i>
-                    </span>
-                    <input type="email" class="form-control" id="email" name="email" placeholder=" Your email address" aria-required="true" required>   
-                </div><!--input group-->
-    
-    
-                <label for="query" class="form-label" aria-label="What questions do you have?">What questions do you have?</label>
-                <div>
-                    <textarea name="message" id="query" class="form-control" style="width: 100%; height: 10em;" placeholder="Your query ..." aria-label="message" aria-required="true" required></textarea> 
-                </div>
-                <input type="hidden" name="_gotcha" style="display:none !important">
-                <input type="hidden" name="subscribe" value="no">
-                <div>
-                    <button type="submit" class="button" value="send" aria-label="send">submit</button>
-                </div>
-            </form> 
-        </div>        
-    </section>
    </main>
 
 <script src="script.js"></script>
+
+<!-- Ratufa -->
+
+<!--
 <script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=vqp4a8bi&n=n1.ratufa.io"></script>
+-->
+
 </body>
 </html>
