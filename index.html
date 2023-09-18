@@ -13,11 +13,156 @@
     <script src="https://kit.fontawesome.com/b589ed552d.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
-    <title>tomtomtattoo</title>
+    <title>tomtomtattoo | Home</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
 
- <h1>This website is temporarily unavailable due to a major upgrade taking place.  We apologise for any inconvenience and will return full service as soon as possible.</h1>
+    <!-- fixed background image to be activated when width > 820px-->
+ 
+    <img class="bg-img" src="/assets/background-cropped.jpg" alt="a pseudo-text created by Tom">
+   
+   
+    <!-- Navbar with dropdowns -->
+
+    <div class="navbar"> 
+        <h3>tom tom tattoo</h3>
+        <a href="index.html">Home</a>  
+        <div class="dropdown">
+            <button class="dropbtn">Galleries<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="realistic-gallery.html">Realistic Blackwork</a>
+                <a href="realistic-colour-gallery.html">Realistic Colourwork</a>
+                <a href="blackwork-gallery.html">Blackwork</a>
+                <a href="new-school-gallery.html">New School</a>
+                <a href="other-styles-gallery.html">Other</a>
+            </div>
+        </div>
+        <div class="dropdown2">
+            <button class="dropbtn">Information<i class="fa fa-caret-down"></i></button>
+            <div class="dropdown2-content">
+                <a href="about.html">About</a> 
+                <a href="testimonials.html">Testimonials</a> 
+                <a href="contact.html">Contact</a> 
+            </div>
+        </div>  
+    </div>
+
+    <!--Header-->
+
+    <header>
+        <div class="display" id="display">
+            <h1 id="headtext">TOM TOM TATTOO</h1> 
+        </div>
+    </header>
+
+    <!-- The main part -->
+
+    <main>
+   
+        <!--lead photo-->
+
+        <div class="leadphoto" >
+            <img src="/assets/snakedagger2.1.jpg" aria-label="main photograph" alt="Original design work by Tom Tom of a bloody curved dagger with an intertwined snake">
+        </div>
+   
+        <!-- set up the sections for the different pages-->
+
+        <section class="grid-container">
+
+            <!-- For the about page -->
+
+            <div class="a1"></div>
+            <div class="a2">
+                <h2>About</h2>
+                <h3>Why am I a tattoo artist?</h3>
+                <p>A three minute read to find out more about my tattooing style, attitude and philosophy.  After all, if I'm going to spend up to several hours putting a permanent piece of artwork on your body, shouldn't you know something about me first?</p>
+                <button onclick="window.location.href = 'about.html';">about</button>
+            </div>
+
+            <!-- For the realistic page -->
+
+            <div class="b1">
+                <h2>Realistic Gallery</h2>
+                <h3>What is a realistic tattoo?</h3>
+                <p>People - popstars, footballers, your spouse or child; animals - wild or domesticated; the subject can be whatever you imagine, I just need a photograph that I can reproduce for you.  Maybe you can get inspiration here!</p>
+                <button onclick="window.location.href = 'realistic-gallery.html';">realistic</button>
+            </div>
+            <div class="b2"></div>
+
+            <!-- for the colour page -->
+
+            <div class="f1"></div>
+            <div class="f2">
+                <h2>Realistic Colour Gallery</h2>
+                <h3>What is realistic colour?</h3>
+                <p>As the name suggests, these are realistic images but in colour rather than black.</p>  
+                <button onclick="window.location.href = 'realistic-colour-gallery.html';">realistic-colour</button>
+            </div>
+        
+            <!-- For the blackwork page -->
+
+            <div class="g1">
+                <h2>Blackwork Gallery</h2>
+                <h3>What is blackwork?</h3>
+                <p>Blackwork is the name for any tattoo that is done in black and shades of grey.</p>  
+                <button onclick="window.location.href = 'blackwork-gallery.html';">blackwork</button>
+            </div>
+            <div class="g2"></div>
+        
+
+            <!-- For the new-school page -->
+
+            <div class="c1"></div>
+            <div class="c2">
+                <h2>New-School Gallery</h2>
+                <h3>What is New-School?</h3>
+                <p>New-school is a tattooing style characterised by the use of heavy outlines, vivid colours and exaggerated depictions of the subject.</p>  
+                <button onclick="window.location.href = 'new-school-gallery.html';">new-school</button>
+            </div>
+        
+            <!-- For the other styles page -->
+
+            <div class="d1">
+                <h2>Other Styles Gallery</h2>
+                <h3>What other styles?</h3>
+                <p>Other styles include anything and everything that don't quite fit into the other 3; scripts, cartoons, abstract or geometric designs.  Have a look, there could be anything!</p>  
+                <button onclick="window.location.href = 'other-styles-gallery.html';">other styles</button>
+            </div>
+            <div class="d2"></div>
+        
+
+            <!-- For the testimonials and contact page -->
+
+            <div class="e1">
+                <h2>Testimonials</h2>
+                <h3>What do my clients say?</h3>
+                <p>Here you will find just a few of the comments people have volunteered after having me tattoo my art onto them.</p>  
+                <button onclick="window.location.href = 'testimonials.html';">testimonials</button>
+            </div>
+            <div class="e2"></div>
+            <div class="e3">
+                <h2>Contact Me</h2>
+                <h3>What other styles?</h3>
+                <p>Get in touch with me, ask any questions you may have, book in for a consultation, I'm happy to hear from you and look forward to meeting you.</p>  
+                <button onclick="window.location.href = 'contact.html';">contact me</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- The footer for all pages -->
+
+    <footer class="footer">
+        <div class="flex-container">
+            <p>All photographs and text &copy 2023 Thomas Bradley, all rights reserved</p>
+            <p>Website designed and hand-coded by William Bradley</p>
+            <p>For website design, either bespoke hand-coded or using WordPress, please contact William Bradley via Tom Bradley using the form on the <a href="contact.html">contact</a> page</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    
+    <script src="js/script.js"></script>
+
 </body>
 </html>
