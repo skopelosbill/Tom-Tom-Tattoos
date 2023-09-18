@@ -1,0 +1,104 @@
+.center {
+    text-align:center;
+    width:100%;
+    font-family: var(--ff-para);
+    font-weight: var(--fw-regular);
+    color:var(--clr-visible-text);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: var(--fs-small);
+ }
+ .question {
+    width: 66.7%;
+    height: auto;
+    margin: 0 auto;
+    font-family: var(--ff-para);
+    font-weight: var(--fw-regular);
+    color:var(--clr-visible-text);
+    margin-bottom: 1rem;
+ }
+ .question > .lead {
+    text-align: center;
+    font-size: var(--fs-x-small); 
+ }
+ .contact-form {
+    width: 66.7%;
+    height: auto;
+    margin: 0 auto;
+    font-family: var(--ff-para);
+    font-weight: var(--fw-regular);
+    color:var(--clr-visible-text);
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+ }
+ .input-group {
+       display: -ms-flexbox; /* IE10 */
+       display: flex;
+       width: 100%;
+       outline: none;
+       margin-bottom: 2em;
+       border: none;
+ }
+ .input-group-text {
+    padding: 10px;
+    background: var(--clr-visible-text);
+    color: var(--clr-bg);
+    min-width: 50px;
+    text-align: center;
+    font-size: var(--fs-x-small);
+  }
+ .form-label{
+    font-family: var(--ff-headings);
+    text-align: left;
+    font-size: var(--fs-x-small);
+ }
+ .form-control {
+    width: 95%;
+    padding: 0.5em;
+    background-color: var(--clr-bg);
+    outline: none;
+    border: none;
+    border: solid 0.1em var(--clr-visible-text-pale);
+ }
+ .form-control:focus {
+    border: solid 0.2em var(--clr-visible-text);
+    border-radius: 0;
+ }
+ .form-select {
+    background-color: var(--clr-bg);
+    font-family: var(--ff-para);
+    font-size: var(--fs-x-small);
+    color: var(--clr-visible-text);
+    border: none;
+    border-radius: 0;
+    border:solid 0.1em var(--clr-visible-text-pale); 
+ }
+ .form-select:focus {
+    border: solid 0.2em var(--clr-visible-text);
+    border-radius: 0;
+ }
+ ::placeholder {
+    font-family: var(--ff-para);
+    font-size: var(--fs-x-small);
+    color: var(--clr-visible-text-pale);
+ }
+ .icon {
+    font-size: var(--fs-x-small);
+ }
+ button {
+    width: 100%;
+    background-color: var(--clr-bg);
+    color: var(--clr-visible-text);
+    margin: 1em 0 1em 0;
+    padding: 1em 0 1em 0;
+    font-family: var(--ff-para);
+    font-size: var(--fs-x-small);
+    outline: none;
+    border: none;
+    border: solid 0.1em var(--clr-visible-text-pale);
+ }
+ .button:hover {
+    background-color: var(--clr-visible-text);
+    color: var(--clr-bg);
+    border-radius: 0;
+ }

@@ -1,0 +1,36 @@
+.text {
+    font-family: var(--ff-para);
+    font-size: var(--fs-xx-small);
+    color: var(--clr-visible-text);
+    text-align: left;
+    padding: 1em;
+    margin-left: 1em;
+  }
+  .text .box {
+    width: 40vw;
+    height: auto;
+    float: right;
+  }
+  .text p {
+    padding: 0.5em;
+  }
+
+  /* media queries */
+
+  @media (min-width: 640px) {
+    .text p {
+      font-size: var(--fs-small)
+    }
+  }
+  @media (min-width: 1024px) {
+    .text p {
+      font-size: var(--fs-med);
+    }
+  }
+
+  @media (min-width: 1300px) {
+    .text p {
+      font-size: var(--fs-l-med);
+    }
+  }
+  

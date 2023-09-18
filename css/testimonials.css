@@ -1,0 +1,25 @@
+.testimonials {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    font-family: var(--ff-para);
+    font-weight: var(--fw-regular);
+    color:var(--clr-visible-text);
+    margin-bottom: 1rem;
+ }
+ .testimonials > .fa-quote-left {
+    margin-left: 0;
+    font-size: var(--fs-small); 
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+ }
+ .testimonials > .comment {
+    text-align: center;
+    font-size: var(--fs-x-small);  
+ }
+ .testimonials > .fa-quote-right {
+    margin-left: 100%;
+    font-size: var(--fs-small); 
+    padding-bottom: 0.5em; 
+ }
+ 
