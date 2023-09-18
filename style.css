@@ -170,13 +170,15 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   
    /*set up for the lead photo*/
   
-   .leadphoto {
-    width:40%;
-    height:auto;
+.leadphoto img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: auto;
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em; 
-  }
+ }
   
    /* set up the sections for the different pages */
    
