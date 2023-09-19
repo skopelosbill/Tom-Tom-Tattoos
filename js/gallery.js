@@ -2,6 +2,12 @@ let galleryImages = document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 let folderName = document.getElementById("foldername").innerHTML;
+let nextWidth = 0;
+if (windowWidth < 1100) {
+    nextWidth += 26; 
+} else {
+    nextWidth += 46;
+}
 
 if (galleryImages) {
     galleryImages.forEach(function(image, index) {
@@ -26,7 +32,7 @@ if (galleryImages) {
             newImg.onload = function() {
                 let imgWidth = this.width;
                 let calcImgToLeftEdge = ((windowWidth - imgWidth) / 2) - 36;
-                let calcImgToRightEdge = ((windowWidth - imgWidth) / 2 ) - 36;
+                let calcImgToRightEdge = ((windowWidth - imgWidth) / 2 ) - nextWidth;
                 
                 let newNextBtn = document.createElement("a");
                 let btnNextText = document.createTextNode(">");
@@ -92,7 +98,7 @@ function changeImg(changeDir) {
     newImg.onload = function() {
         let imgWidth = this.width;
         let calcImgToLeftEdge = ((windowWidth - imgWidth) / 2) - 36;
-        let calcImgToRightEdge = ((windowWidth - imgWidth) / 2) - 36;
+        let calcImgToRightEdge = ((windowWidth - imgWidth) / 2) - nextWidth;
 
         let nextBtn = document.querySelector(".img-btn-next");
         nextBtn.setAttribute("class", "img-btn-next");
