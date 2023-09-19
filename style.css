@@ -216,7 +216,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   
   .a1 {
       grid-area: a1;
-      background: url("assets/tomatwork2.jpg");
+      background: url("assets/background-img.jpg");
       min-height: 50vh;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -732,6 +732,13 @@ https://www.joshwcomeau.com/css/custom-css-reset/
         margin: 0;
       }
    }
+
+   @media only screen and (max-device-width: 950px) {
+    .a1, .b2, .c1,
+    .d2, .e2, .f1, .g2 {
+      background-attachment: scroll;
+    }
+  }
   
   @media (min-width: 960px) {
    
