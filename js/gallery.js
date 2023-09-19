@@ -3,12 +3,20 @@ let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 let folderName = document.getElementById("foldername").innerHTML;
 let nextWidth = 0;
-if (windowWidth < 820) {
-    nextWidth += 28; 
-} else if (windowWidth <= 1200) {
-    nextWidth += 38;
+
+
+if (windowWidth < 450) {
+    nextWidth += 30; 
+} else if (windowWidth < 810) {
+    nextWidth += 29;
+} else if (windowWidth < 1050) {
+    nextWidth += 36;
+} else if (windowWidth < 1100) {
+    nextWidth += 46;
+} else if (windowWidth < 1160) {
+    nextWidth += 50;
 } else {
-    nextWidth += 48;
+    nextWidth += 56;
 }
 
 
