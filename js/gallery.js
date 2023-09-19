@@ -6,17 +6,17 @@ let nextWidth = 0;
 
 
 if (windowWidth < 450) {
-    nextWidth += 30; 
+    nextWidth += 28; 
 } else if (windowWidth < 810) {
     nextWidth += 29;
 } else if (windowWidth < 1050) {
-    nextWidth += 36;
+    nextWidth += 37;
 } else if (windowWidth < 1100) {
-    nextWidth += 46;
+    nextWidth += 41;
 } else if (windowWidth < 1160) {
-    nextWidth += 50;
+    nextWidth += 58;
 } else {
-    nextWidth += 56;
+    nextWidth += 64;
 }
 
 
