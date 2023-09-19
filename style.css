@@ -24,7 +24,7 @@
     --clr-smoke-shadow: hsl(29, 100%, 10%);
     --clr-invisible-text: hsl(29, 100%, 80%);
     --clr-visible-text: hsl(29, 100%, 20%);
-    --clr-visible-text-pale: hsla(29, 100%, 20%, 0.9);
+    --clr-visible-text-pale: hsla(29, 100%, 20%, 0.95);
 }
 
 
