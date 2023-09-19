@@ -216,7 +216,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   
   .a1 {
       grid-area: a1;
-      background: url("tomatwork2.jpg");
+      background: url("assets/tomatwork2.jpg");
       min-height: 50vh;
       background-attachment: fixed;
       background-repeat: no-repeat;
