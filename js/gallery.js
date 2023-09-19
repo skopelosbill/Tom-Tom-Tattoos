@@ -1,6 +1,7 @@
 let galleryImages = document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
+alert(windowWidth)
 let folderName = document.getElementById("foldername").innerHTML;
 let nextWidth = 0;
 if (windowWidth < 820) {
