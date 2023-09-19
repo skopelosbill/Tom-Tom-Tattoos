@@ -4,9 +4,9 @@ let windowWidth = window.innerWidth;
 let folderName = document.getElementById("foldername").innerHTML;
 let nextWidth = 0;
 if (windowWidth < 1100) {
-    nextWidth += 26; 
+    nextWidth += 28; 
 } else {
-    nextWidth += 46;
+    nextWidth += 70;
 }
 
 if (galleryImages) {
