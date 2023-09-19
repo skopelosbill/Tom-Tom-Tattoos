@@ -3,11 +3,14 @@ let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 let folderName = document.getElementById("foldername").innerHTML;
 let nextWidth = 0;
-if (windowWidth < 1100) {
+if (windowWidth < 820) {
     nextWidth += 28; 
+} else if (windowWidth <= 1200) {
+    nextWidth += 36;
 } else {
-    nextWidth += 70;
+    nextWidth += 100;
 }
+
 
 if (galleryImages) {
     galleryImages.forEach(function(image, index) {
