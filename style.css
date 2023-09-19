@@ -733,7 +733,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       }
    }
 
-   @media only screen and (max-device-width: 950px) {
+   @media only screen and (max-device-width: 1024px) {
     .a1, .b2, .c1,
     .d2, .e2, .f1, .g2 {
       background-attachment: scroll;
