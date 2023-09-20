@@ -208,8 +208,9 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     margin: auto;
     overflow: hidden;
     z-index: 1;
-    margin-bottom: 1em;
     font-size: var(--fs-xx-small);
+    margin-bottom: 1em;
+   
    }
   
   /* For the about page */
@@ -230,7 +231,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
-      padding: 1em;
+      padding: 0 1em 0.5em 1em;
       
   }
   .a2 h2 {
@@ -268,7 +269,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
-      padding: 1em;
+      padding: 0 1em 0.5em 1em;
   }
   .b1 h2 {
       text-transform: uppercase;
@@ -325,7 +326,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
-      padding: 1em;
+      padding: 0 1em 0.5em 1em;
   }
   .c2 h2 {
       text-transform: uppercase;
@@ -362,7 +363,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
-      padding: 1em;
+      padding: 0 1em 0.5em 1em;
   }
     .d1 h2 {
       text-transform: uppercase;
@@ -410,7 +411,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
-      padding: 1em;
+      padding: 0 1em 0.5em 1em;
   } 
   
   .e1 h2 {
@@ -455,7 +456,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
-      padding: 1em;
+      padding: 0 1em 0.5em 1em;
   } 
   .e3 h2 {
       text-transform: uppercase;
@@ -502,7 +503,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     background-color: var(--clr-visible-text);
     color: var(--clr-bg);
     text-align: center;
-    padding: 1em;
+    padding: 0 1em 0.5em 1em;
   } 
   .f2 h2 {
     text-transform: uppercase;
@@ -539,7 +540,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     background-color: var(--clr-visible-text);
     color: var(--clr-bg);
     text-align: center;
-    padding: 1em;
+    padding: 0 1em 0.5em 1em;
   } 
   .g1 h2 {
     text-transform: uppercase;
