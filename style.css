@@ -703,8 +703,17 @@ https://www.joshwcomeau.com/css/custom-css-reset/
         "c1 c1 c2"
         "d1 d2 d2"
         "e1 e2 e3";
-        max-height: 53vh;
-        font-size: var(--fs-x-small);
+    }
+    .a2,
+    .b1,
+    .f2,
+    .g1,
+    .c2,
+    .d1,
+    .e1,
+    .e3 {
+      max-height: 53vh;
+      font-size: var(--fs-x-small);
     }
   }
   
