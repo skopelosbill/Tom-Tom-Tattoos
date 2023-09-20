@@ -226,6 +226,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .a2 {
       grid-area: a2;
       max-height: 50vh;
+      font-size: var(--fs-xx-small);
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
@@ -263,6 +264,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .b1 {
       grid-area: b1;
       max-height: 50vh;
+      font-size: var(--fs-xx-small);
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
@@ -319,6 +321,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .c2 {
       grid-area: c2;
       max-height: 50vh;
+      font-size: var(--fs-xx-small);
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
@@ -355,6 +358,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .d1 {
       grid-area: d1;
       max-height: 50vh;
+      font-size: var(--fs-xx-small);
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
@@ -402,6 +406,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .e1 {
       grid-area: e1;
       max-height: 50vh;
+      font-size: var(--fs-xx-small);
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
@@ -446,6 +451,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .e3 {
       grid-area: e3;
       max-height: 50vh;
+      font-size: var(--fs-xx-small);
       background-color: var(--clr-visible-text);
       color: var(--clr-bg);
       text-align: center;
@@ -492,6 +498,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .f2 {
     grid-area: f2;
     max-height: 50vh;
+    font-size: var(--fs-xx-small);
     background-color: var(--clr-visible-text);
     color: var(--clr-bg);
     text-align: center;
@@ -528,6 +535,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .g1 {
     grid-area: g1;
     max-height: 50vh;
+    font-size: var(--fs-xx-small);
     background-color: var(--clr-visible-text);
     color: var(--clr-bg);
     text-align: center;
