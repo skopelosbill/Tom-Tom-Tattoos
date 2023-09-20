@@ -760,6 +760,17 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     .testimonials > #close {
       font-size: var(--fs-l-med);
     }
+    .a2,
+    .b1,
+    .f2,
+    .g1,
+    .c2,
+    .d1,
+    .e1,
+    .e3 {
+      max-height: 60vh;
+      font-size: var(--fs-x-small);
+    }
     .center {
       font-size: var(--fs-lge);
     } 
@@ -793,17 +804,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     .testimonials > #close {
       font-size: var(--fs-x-lge);
     }
-    .a2,
-    .b1,
-    .f2,
-    .g1,
-    .c2,
-    .d1,
-    .e1,
-    .e3 {
-      max-height: 60vh;
-      font-size: var(--fs-x-small);
-    }
+   
     .testimonials > .comment,
     .question > .lead,
     .input-group-text,
