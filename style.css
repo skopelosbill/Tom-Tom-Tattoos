@@ -712,17 +712,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
         "d1 d2 d2"
         "e1 e2 e3";
     }
-    .a2,
-    .b1,
-    .f2,
-    .g1,
-    .c2,
-    .d1,
-    .e1,
-    .e3 {
-      max-height: 53vh;
-      font-size: var(--fs-x-small);
-    }
+   
   }
   
    @media screen and (max-width: 820px) {
@@ -760,17 +750,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     .testimonials > #close {
       font-size: var(--fs-l-med);
     }
-    .a2,
-    .b1,
-    .f2,
-    .g1,
-    .c2,
-    .d1,
-    .e1,
-    .e3 {
-      max-height: 60vh;
-      font-size: var(--fs-x-small);
-    }
+    
     .center {
       font-size: var(--fs-lge);
     } 
