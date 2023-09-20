@@ -802,7 +802,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     .e1,
     .e3 {
       max-height: 60vh;
-      font-size: var(--fs-x-small)
+      font-size: var(--fs-x-small);
     }
     .testimonials > .comment,
     .question > .lead,
