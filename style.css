@@ -237,7 +237,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .a2 h2 {
       text-transform: uppercase;
       font-family: var(--ff-headings);
-      padding: 0.5em; 
     }
   .a2 p{
       font-family: var(--ff-para);
@@ -274,7 +273,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .b1 h2 {
       text-transform: uppercase;
       font-family: var(--ff-headings);
-      padding: 0.5em;
   }
   .b1 p{
       font-family: var(--ff-para);
@@ -331,7 +329,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .c2 h2 {
       text-transform: uppercase;
       font-family: var(--ff-headings);
-      padding: 0.5em;
   }
   .c2 p{
       font-family: var(--ff-para);
@@ -367,8 +364,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   }
     .d1 h2 {
       text-transform: uppercase;
-      font-family: var(--ff-headings);
-      padding: 0.5em; 
+      font-family: var(--ff-headings); 
   }
   .d1 p{
       font-family: var(--ff-para);
@@ -417,7 +413,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .e1 h2 {
       text-transform: uppercase;
       font-family: var(--ff-headings);
-      padding: 0.5em;
   }
   .e1 p{
       font-family: var(--ff-para);
@@ -461,7 +456,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .e3 h2 {
       text-transform: uppercase;
       font-family: var(--ff-headings);
-      padding: 0.5em;
   }
   .e3 p{
       font-family: var(--ff-para);
@@ -508,7 +502,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .f2 h2 {
     text-transform: uppercase;
     font-family: var(--ff-headings);
-    padding: 0.5em;
   }
   .f2 p {
     font-family: var(--ff-para);
@@ -545,7 +538,6 @@ https://www.joshwcomeau.com/css/custom-css-reset/
   .g1 h2 {
     text-transform: uppercase;
     font-family: var(--ff-headings);
-    padding: 0.5em;
   }
   .g1 p {
     font-family: var(--ff-para);
