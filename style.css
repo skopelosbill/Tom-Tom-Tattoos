@@ -770,7 +770,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/
     .dropdown2,
     .dropdown .dropbtn,
     .dropdown2 .dropbtn {
-      font-size: var(--fs-l-med);
+      font-size: var(--fs-med);
     }
   }
   
