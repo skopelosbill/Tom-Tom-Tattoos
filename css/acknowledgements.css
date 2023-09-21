@@ -1,0 +1,17 @@
+ .prose {
+    width: 70vw;
+    font-size: var(--fs-x-small);
+    color: var(--clr-visible-text);
+    margin: auto;
+  
+}
+.prose h3{
+    text-align: center;
+    font-family: var(--ff-headings);
+}
+.prose p {
+    font-family: var(--ff-para);
+}
+.prose ul {
+    font-family: var(--ff-para);
+}
