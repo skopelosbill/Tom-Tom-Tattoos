@@ -587,6 +587,16 @@ https://www.joshwcomeau.com/css/custom-css-reset/
      font-weight: var(--fw-semi-bold);
      padding: 0.75em;
    }
+
+   .info{
+    width: 50vw;
+    height: auto;
+    font-family: var(--ff-para);
+    font-size: var(--fs-x-small);
+    color: var(--clr-visible-text);
+    margin: auto;
+    text-align: center;
+   }
   
    /* Set up for the Footer on all pages */
   
