@@ -745,6 +745,13 @@ https://www.joshwcomeau.com/css/custom-css-reset/
       background-attachment: scroll;
     }
   }
+  @media screen and (prefers-reduced-motion: reduce) {
+    .a1, .b2, .c1,
+    .d2, .e2, .f1, .g2 {
+      background-attachment: scroll;
+    }
+    
+  }
   
   @media (min-width: 960px) {
    
