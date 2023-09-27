@@ -17,8 +17,8 @@
     grid-template-rows: auto;
     height: 150vh;
     width: 96vw;
-    gap: 0.2em;
-    padding: 0.5em 0;
+    gap: 0.2rem;
+    padding: 0.5rem 0;
     margin: auto;
 }
 #realistic-gallery {
@@ -97,7 +97,7 @@
 }
 .gallery-img div {
     font-family: var(--ff-para);
-    font-size: var(--fs-x-small);
+    font-size: var(--fs-xx-small);
     text-transform: uppercase;
     opacity:0;
 }
@@ -130,8 +130,8 @@
 
 .img-btn-next {
     display: block;
-    padding: 4px 10px;
-    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
     background-color: var(--clr-bg);
     position: fixed;
     top: 48vh;
@@ -145,12 +145,12 @@
 .img-btn-next:hover {
     background-color: var(--clr-font);
     color: var(--clr-bg);
-    border: 0.1em solid var(--clr-bg);
+    border: 0.1rem solid var(--clr-bg);
 }
 .img-btn-prev {
     display: block;
-    padding:4px 10px;
-    border-radius: 4px;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
     background-color: var(--clr-bg);
     position: fixed;
     top: 48vh;
@@ -164,18 +164,19 @@
 .img-btn-prev:hover {
     background-color: var(--clr-font);
     color: var(--clr-bg);
-    border: 0.1em solid var(--clr-bg);   
+    border: 0.1rem solid var(--clr-bg);   
 }
 .img-closer {
     display: block;
     cursor: pointer;
     font-family: var(--ff-para);
-    font-size: var(--fs-x-small);
+    font-size: var(--fs-xx-small);
     color: var(--clr-bg);
     z-index: 500;
     text-transform: uppercase;
     position: fixed;
-    bottom: 1vh;
+    bottom: 2rem;
+    margin-bottom: 1rem;
     left: 51%;
     transform: translateX(-50%);  
 }

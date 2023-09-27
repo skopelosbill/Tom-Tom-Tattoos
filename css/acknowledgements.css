@@ -1,6 +1,6 @@
  .prose {
     width: 70vw;
-    font-size: var(--fs-x-small);
+    font-size: var(--fs-xx-small);
     color: var(--clr-visible-text);
     margin: auto;
   
@@ -11,7 +11,9 @@
 }
 .prose p {
     font-family: var(--ff-para);
+    font-size: inherit;
 }
 .prose ul {
     font-family: var(--ff-para);
+    font-size: inherit;
 }
