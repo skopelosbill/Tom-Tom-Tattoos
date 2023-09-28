@@ -714,7 +714,10 @@ p, h1, h2, h3, h4, h5, h6 {
     .contact-form,
     .form-select,
     ::placeholder,
-    .button {
+    .button,
+    .gallery-img div,
+    .info,
+    .img-closer {
       font-size: var(--fs-x-small);
     }
     .a2 h2, .b1 h2, .c2 h2, .d1 h2, .e1 h2, .e3 h2, .f2 h2, .g1 h2,
@@ -746,7 +749,10 @@ p, h1, h2, h3, h4, h5, h6 {
     .contact-form,
     .form-select,
     ::placeholder,
-    .button {
+    .button,
+    .gallery-img div,
+    .info,
+    .img-closer  {
       font-size: var(--fs-small);
     }
     .a2 h2, .b1 h2, .c2 h2, .d1 h2, .e1 h2, .e3 h2, .f2 h2, .g1 h2,
@@ -798,7 +804,10 @@ p, h1, h2, h3, h4, h5, h6 {
     .contact-form,
     .form-select,
     ::placeholder,
-    .button {
+    .button,
+    .gallery-img div,
+    .info,
+    .img-closer  {
       font-size: var(--fs-s-med);
     }
     .a2 h2, .b1 h2, .c2 h2, .d1 h2, .e1 h2, .e3 h2, .f2 h2, .g1 h2,
@@ -856,7 +865,10 @@ p, h1, h2, h3, h4, h5, h6 {
     .contact-form,
     .form-select,
     ::placeholder,
-    .button {
+    .button,
+    .gallery-img div,
+    .info,
+    .img-closer  {
       font-size: var(--fs-med);
     }
     .a2 h2, .b1 h2, .c2 h2, .d1 h2, .e1 h2, .e3 h2, .f2 h2, .g1 h2,
@@ -890,7 +902,10 @@ p, h1, h2, h3, h4, h5, h6 {
     .contact-form,
     .form-select,
     ::placeholder,
-    .button {
+    .button,
+    .gallery-img div,
+    .info,
+    .img-closer  {
       font-size: var(--fs-l-med);
     }
     .a2 h2, .b1 h2, .c2 h2, .d1 h2, .e1 h2, .e3 h2, .f2 h2, .g1 h2,
@@ -917,18 +932,8 @@ p, h1, h2, h3, h4, h5, h6 {
     .testimonials > #close {
       font-size: var(--fs-x-lge);
     }
-   
-    .testimonials > .comment,
-    .question > .lead,
-    .input-group-text,
-    .form-label,
-    .form-select,
-    ::placeholder, 
-    .icon,
-    .button {
-      font-size: var(--fs-l-med)
-    }
-    .center {
+    .center,
+    .display h1 {
       font-size: var(--fs-xxx-lge);
     }
   }
