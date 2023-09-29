@@ -14,10 +14,12 @@
   }
   .text p {
     padding-right: 1rem;
+    font-size: inherit;
   }
 
   /* media queries */
 
+  
   @media (min-width: 400px) {
     .text .box {
       width:120px;
@@ -28,9 +30,18 @@
       width: 160px;
     }
   }
-  
+  @media (min-width: 1024px) {
+    .text .box {
+      width: 200px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .text .box {
+      width: 240px;
+    }
+  }
  
-
+/*
   @media (min-width: 640px) {
     .text p {
       font-size: var(--fs-small)
@@ -46,5 +57,5 @@
     .text p {
       font-size: var(--fs-l-med);
     }
-  }
+  }*/
   
