@@ -949,7 +949,7 @@ p, h1, h2, h3, h4, h5, h6 {
     }
   }
 
-  @media only screen and (min-width: 1200px) and (orientation: landscape){
+ /* @media only screen and (min-width: 1200px) and (orientation: landscape){
 
       .a1 {
         background-position-x: -5rem;
@@ -974,7 +974,7 @@ p, h1, h2, h3, h4, h5, h6 {
       }
      
       
-  }
+  }*/
 
   @media only screen and (max-device-width: 1024px) {
     .a1, .b2, .c1,
@@ -989,4 +989,30 @@ p, h1, h2, h3, h4, h5, h6 {
     }
     
   }
+  @media only screen and (min-width: 1024px) and (orientation: landscape){
+
+    .a1 {
+      background-position: center;
+    }
+    .b2 {
+      background-position: center;
+    }
+    .c1 {
+      background-position: center;
+    }
+    .d2 {
+      background-position: center;
+    }
+    .e2 {
+      background-position-x: 0;
+    }
+    .f1 {
+      background-position: center;
+    }
+    .g2 {
+      background-position: center;
+    }
+   
+    
+}
    
