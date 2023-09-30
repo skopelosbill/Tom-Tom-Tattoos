@@ -46,9 +46,15 @@
     background: var(--clr-visible-text);
     color: var(--clr-bg);
     min-width: fit-content;
+    min-height:fit-content;
     text-align: center;
     font-size: var(--fs-xx-small);
+    display: flex;
   }
+  .contact-form .input-group .input-group-text .icon {
+   font-size: var(--fs-xx-small);
+   align-self: center;
+}
  .form-label{
     font-family: var(--ff-headings);
     text-align: left;
@@ -84,9 +90,7 @@
     font-size: var(--fs-xx-small);
     color: var(--clr-visible-text-pale);
  }
- .icon {
-    font-size: var(--fs-xx-small);
- }
+ 
  button {
     width: 100%;
     background-color: var(--clr-bg);
