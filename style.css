@@ -955,22 +955,22 @@ p, h1, h2, h3, h4, h5, h6 {
         background-position-x: -5rem;
       }
       .b2 {
-        background-position-x: -30rem;
+        background-position: center;
       }
       .c1 {
-        background-position-x: 0;
+        background-position: center;
       }
       .d2 {
-        background-position-x: 20rem;
+        background-position: centerm;
       }
       .e2 {
         background-position-x: 0;
       }
       .f1 {
-        background-position-x: -5rem;
+        background-position: center;
       }
       .g2 {
-        background-position: 25rem;
+        background-position: center;
       }
      
       
