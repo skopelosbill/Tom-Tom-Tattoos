@@ -1,9 +1,10 @@
+
 let galleryImages = document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidth = window.innerWidth;
 let folderName = document.getElementById("foldername").innerHTML;
 let nextWidth = 0;
-
+let imageNames=[]
 
 if (windowWidth < 450) {
     nextWidth += 32; 
@@ -19,14 +20,26 @@ if (windowWidth < 450) {
     nextWidth += 48;
 }
 
+if (galleryImages) {
+    galleryImages.forEach(function(image) {
+        let thumbSrc = image.querySelector('a').innerHTML;
+        if (thumbSrc) {
+            let newText = thumbSrc.replace(/ /g, "-");
+            imageNames.push(newText);
+        }
+    });
+}      
+
+
+
 
 if (galleryImages) {
     galleryImages.forEach(function(image, index) {
-        image.onclick = function() {
+            image.onclick = function() {
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
             let getImgUrlPos = getFullImgUrl.split("/assets/" + folderName + "/thumbs/");//Careful
-            let setNewImgUrl = getImgUrlPos[1].replace('")', '');
+            let setNewImgUrl = getImgUrlPos[1].replace('-thumb.jpg")', '.jpg');
             getLatestOpenedImg = index + 1;
 
             let fullImgContainer = document.body;
@@ -39,6 +52,8 @@ if (galleryImages) {
             newImgWindow.appendChild(newImg);
             newImg.setAttribute("src", "assets/" + folderName + "/" + setNewImgUrl);//careful
             newImg.setAttribute("id", "current-img");
+            
+           
            
             newImg.onload = function() {
                 let imgWidth = this.width;
@@ -60,6 +75,7 @@ if (galleryImages) {
                 newPrevBtn.setAttribute("class", "img-btn-prev");
                 newPrevBtn.setAttribute("onclick", "changeImg(0)");
                 newPrevBtn.style.cssText = "left: " + calcImgToLeftEdge + "px;";
+                
 
                 let backToWebsite = document.createElement("p");
                 let backToWebsiteText = document.createTextNode("click to return to the website");
@@ -81,12 +97,6 @@ function closeImg() {
 }
 
 function changeImg(changeDir) {
-    document.querySelector("#current-img").remove();
-
-    let getImgWindow = document.querySelector(".img-window");
-    let newImg = document.createElement("img");
-    getImgWindow.appendChild(newImg);
-  
     let calcNewImg;
     if (changeDir === 1) {
         calcNewImg = getLatestOpenedImg + 1;
@@ -100,8 +110,13 @@ function changeImg(changeDir) {
             calcNewImg =  galleryImages.length;
         }
     }
-    
-    newImg.setAttribute("src", "assets/" + folderName + "/img" + calcNewImg + ".jpg");//careful
+
+    let nextImg = imageNames[calcNewImg-1];
+    document.querySelector("#current-img").remove();
+    let getImgWindow = document.querySelector(".img-window");
+    let newImg = document.createElement("img");
+    getImgWindow.appendChild(newImg);
+    newImg.setAttribute("src", "assets/" + folderName + "/" + nextImg + ".jpg");//careful
     newImg.setAttribute("id", "current-img");
     
     getLatestOpenedImg = calcNewImg;
@@ -120,3 +135,7 @@ function changeImg(changeDir) {
         prevBtn.style.cssText = "left: " + calcImgToLeftEdge + "px;"; 
     }
 }
+
+
+
+

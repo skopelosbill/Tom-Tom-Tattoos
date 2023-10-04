@@ -27,28 +27,28 @@
 /* Images */
 
 #blackwork-gallery .img1 {
-    background-image: url("../assets/blackwork/thumbs/img1.jpg");
+    background-image: url("../assets/blackwork/thumbs/book-and-wild-flowers-thumb.jpg");
 }
 #blackwork-gallery .img2 {
-    background-image: url("../assets/blackwork/thumbs/img2.jpg");
+    background-image: url("../assets/blackwork/thumbs/demon-thumb.jpg");
 }
 #blackwork-gallery .img3 { 
-    background-image: url("../assets/blackwork/thumbs/img3.jpg");
+    background-image: url("../assets/blackwork/thumbs/moth-thumb.jpg");
 }
 #blackwork-gallery .img4 {
-    background-image: url("../assets/blackwork/thumbs/img4.jpg");  
+    background-image: url("../assets/blackwork/thumbs/ornamental-mandala-thumb.jpg");  
 }
 #blackwork-gallery .img5 {
-    background-image: url("../assets/blackwork/thumbs/img5.jpg");   
+    background-image: url("../assets/blackwork/thumbs/ornamental-moon-and-flowers-thumb.jpg");   
 }
 #blackwork-gallery .img6 { 
-    background-image: url("../assets/blackwork/thumbs/img6.jpg");
+    background-image: url("../assets/blackwork/thumbs/ornamental-wrist-cuff-thumb.jpg");
 }
 #blackwork-gallery .img7 {
-    background-image: url("../assets/blackwork/thumbs/img7.jpg"); 
+    background-image: url("../assets/blackwork/thumbs/scorpions-thumb.jpg"); 
 }
 #blackwork-gallery .img8 {
-    background-image: url("../assets/blackwork/thumbs/img8.jpg");
+    background-image: url("../assets/blackwork/thumbs/surrealism-thumb.jpg");
 }
 
 @media screen and (min-width: 820px){
