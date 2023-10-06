@@ -4,17 +4,17 @@
     --ff-headings: 'Noto Serif', serif;
     --ff-display-tats: 'Noto Serif Display', serif;
 
-    --fs-xxx-lge: 3rem;
-    --fs-xx-lge: 2.75rem;
-    --fs-x-lge: 2.5rem;
-    --fs-lge: 2.25rem;
-    --fs-l-med: 2rem;
-    --fs-med: 1.75rem;
-    --fs-s-med: 1.5rem;
-    --fs-small: 1.25rem;
-    --fs-x-small: 0.9rem;
-    --fs-xx-small: 0.75rem;
-    --fs-xxx-small: 0.5rem;
+    --fs-xxx-lge: 3.5rem;
+    --fs-xx-lge: 3.25rem;
+    --fs-x-lge: 3rem;
+    --fs-lge: 2.75rem;
+    --fs-l-med: 2.5rem;
+    --fs-med: 2.25rem;
+    --fs-s-med: 2rem;
+    --fs-small: 1.75rem;
+    --fs-x-small: 1.5rem;
+    --fs-xx-small: 1.25rem;
+    --fs-xxx-small: 1rem;
 
     --fw-bold: 700;
     --fw-semi-bold: 600;
@@ -192,14 +192,14 @@ p, h1, h2, h3, h4, h5, h6 {
       color: var(--clr-invisible-text);
       text-shadow: 0 0 .5vw var(--clr-smoke-shadow), 0 0 1vw var(--clr-smoke-shadow), 0 0 1.5vw var(--clr-smoke-shadow), 0 0 2vw var(--clr-smoke-shadow), 0 0 2.5vw var(--clr-smoke-shadow), 0 0 3vw var(--clr-smoke-shadow);
       letter-spacing: 0.5vw;
-      position: absolute;
-      
+      text-align: center;
+    /*  position: absolute;
       left: 50%;
-      transform: translateX(-50%);
+      transform: translateX(-50%);*/
       font-family: var(--ff-display-tats);
       font-size: var(--fs-x-small);
       font-weight: var(--fw-bold);
-      padding: 2rem;
+      padding: 0;
    }
   
    /*set up for the lead photo*/
