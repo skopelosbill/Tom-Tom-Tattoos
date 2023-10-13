@@ -22,18 +22,16 @@ if (windowWidth < 450) {
 } else {
     nextWidth += 48;
 }
-/* the if statements in lines 26 - 34 allow the names to be collected to populate the array imageNames.  I don't think the second if statement is necessary and plan to take it out. thumbSrc is the name of the image in the gallery-img a tag and the new text variable uses string methods to globally replace spaces and replace them with - in the image names.  The names are then pushed into imageNames */
+/* the if statements in lines 26 - 34 allow the names to be collected to populate the array imageNames.   thumbSrc is the name of the image in the gallery-img <a> tag and the new text variable uses string methods to globally replace spaces and replace them with - in the image names.  The names are then pushed into imageNames */
 if (galleryImages) {
     galleryImages.forEach(function(image) {
         let thumbSrc = image.querySelector('a').innerHTML;
-        if (thumbSrc) {
-            let newText = thumbSrc.replace(/ /g, "-");
-            imageNames.push(newText);
-        }
+        //if (thumbSrc) {
+        let newText = thumbSrc.replace(/ /g, "-");
+        imageNames.push(newText);
+       // }
     });
 }      
-
-
 
 /* lines 39 to 46 control the getting of the first image, onclick refers to the clicking on a thumbnail image.  This does not use the array imageNames, but I feel sure it could.  At the moment though, this uses the appropriate gallery.css file to extract the url of the clicked image.  The full url is obtained and then split to leave just name-thumb.jpg and then -thumb is stripped out to leave name.jpg which is the name of the full size image in the appropriate gallery */
 if (galleryImages) {
@@ -44,6 +42,7 @@ if (galleryImages) {
             let getImgUrlPos = getFullImgUrl.split("/assets/" + folderName + "/thumbs/");//Careful
             let setNewImgUrl = getImgUrlPos[1].replace('-thumb.jpg")', '.jpg');
             getLatestOpenedImg = index + 1;
+            
 /* Lines 48 to 52 control the opening of a new image window and set attributes for it */
             let fullImgContainer = document.body;
             let newImgWindow = document.createElement("div");
